@@ -1,55 +1,28 @@
-# Site GitHub Pages pour www.sampans.org
+# Site GitHub Pages multilingue pour www.sampans.org
 
-Cette version ajoute :
+Cette version ajoute les langues demandées :
 
-- l’affiche de lancement ;
-- les prix du journal ;
-- les tarifs d’envoi ;
-- l’explication des dons à l’École des Chiens Guides de Lyon Centre-Est ;
-- un exemple de dons pour 100 journaux.
+- Français
+- English
+- Español
+- Português
+- Deutsch
+- Српски
+- 中文
+- العربية
+- Bahasa Melayu
+- 한국어
+- தமிழ்
 
-Fichiers/dossiers à déposer à la racine du dépôt GitHub :
+Pays/langues présentés dans la section “Les pays du journal” :
+France, Canada, États-Unis, Mexique, Brésil, Sénégal, Portugal, Angleterre, Australie, Allemagne, Serbie, Chine, pays arabophones, Malaisie, Corée et Sri Lanka.
 
+À déposer à la racine du dépôt GitHub :
 - index.html
 - style.css
+- script.js
 - CNAME
 - .nojekyll
 - assets/
 
-Le fichier CNAME contient :
-www.sampans.org
-
-## Où est l’affiche ?
-
-- assets/affiche-lancement-journal.jpg : version optimisée pour l’affichage web
-- assets/affiche-lancement-journal-original.png : version originale en grand format
-
-## Publication GitHub Pages
-
-1. Créer ou ouvrir le dépôt GitHub du site.
-2. Envoyer tous les fichiers et le dossier assets à la racine du dépôt.
-3. Aller dans Settings > Pages.
-4. Source : Deploy from a branch.
-5. Branch : main.
-6. Folder : / (root).
-7. Custom domain : www.sampans.org.
-8. Activer Enforce HTTPS quand GitHub le permet.
-
-## DNS Microsoft 365
-
-Ne pas modifier les entrées Microsoft 365 / Exchange.
-
-Modifier seulement les enregistrements web :
-
-Pour www :
-Type : CNAME
-Nom : www
-Valeur : VOTRE-NOM-GITHUB.github.io
-TTL : 1 heure
-
-Pour sampans.org sans www :
-Remplacer l’ancien A 213.200.220.164 par les 4 A records GitHub Pages :
-185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153
+Important : les traductions sont une première version. Pour une communication officielle, il est préférable de les faire relire par des locuteurs natifs.

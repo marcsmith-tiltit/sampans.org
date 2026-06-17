@@ -4,18 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Le P’tiot Sampantais — Sampans</title>
-  <meta name="description" content="Site simple pour présenter Le P’tiot Sampantais, journal local inspiré de Sampans en 1902.">
+  <meta name="description" content="Site multilingue pour présenter Le P’tiot Sampantais, journal local inspiré de Sampans en 1902.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <p class="kicker">Sampans • Jura</p>
+      <p class="kicker" data-i18n="kicker">Sampans • Jura • France</p>
       <h1>Le P’tiot Sampantais</h1>
-      <p class="subtitle">Un petit journal local, inspiré de Sampans en 1902.</p>
+      <p class="subtitle" data-i18n="subtitle">Un petit journal local, inspiré de Sampans en 1902, avec des nouvelles du village et du monde.</p>
+
+      <div class="language-panel" aria-label="Sélecteur de langue">
+        <p data-i18n="languageIntro">Choisir une langue</p>
+        <div class="language-buttons">
+          <button class="language-button" type="button" data-lang="fr">Français</button>
+          <button class="language-button" type="button" data-lang="en">English</button>
+          <button class="language-button" type="button" data-lang="es">Español</button>
+          <button class="language-button" type="button" data-lang="pt">Português</button>
+          <button class="language-button" type="button" data-lang="de">Deutsch</button>
+          <button class="language-button" type="button" data-lang="sr">Српски</button>
+          <button class="language-button" type="button" data-lang="zh">中文</button>
+          <button class="language-button" type="button" data-lang="ar">العربية</button>
+          <button class="language-button" type="button" data-lang="ms">Bahasa Melayu</button>
+          <button class="language-button" type="button" data-lang="ko">한국어</button>
+          <button class="language-button" type="button" data-lang="ta">தமிழ்</button>
+        </div>
+      </div>
+
       <div class="buttons">
-        <a class="button primary" href="#acheter">Commander un exemplaire</a>
-        <a class="button secondary" href="#affiche">Voir l’affiche</a>
+        <a class="button primary" href="#acheter" data-i18n="orderButton">Commander un exemplaire</a>
+        <a class="button secondary" href="#affiche" data-i18n="posterButton">Voir l’affiche</a>
       </div>
     </div>
   </header>
@@ -23,117 +41,105 @@
   <main>
     <section id="affiche" class="section poster-section">
       <div class="container">
-        <h2>Affiche du lancement</h2>
-        <p class="large">
-          Rendez-vous au marché des producteurs, rue Croix-d’Aval à Sampans,
-          le samedi 27 juin 2026 à partir de 9h00.
-        </p>
+        <h2 data-i18n="posterTitle">Affiche du lancement</h2>
+        <p class="large" data-i18n="posterText">Rendez-vous au marché des producteurs, rue Croix-d’Aval à Sampans, le samedi 27 juin 2026 à partir de 9h00.</p>
         <figure class="poster-frame">
-          <img src="assets/affiche-lancement-journal.jpg"
-               alt="Affiche de lancement du journal Le P’tiot Sampantais au marché des producteurs de Sampans, samedi 27 juin 2026 à partir de 9h00.">
+          <img src="assets/affiche-lancement-journal.jpg" alt="Affiche de lancement du journal Le P’tiot Sampantais au marché des producteurs de Sampans, samedi 27 juin 2026 à partir de 9h00.">
         </figure>
-        <p class="small">
-          <a href="assets/affiche-lancement-journal-original.png">Ouvrir l’affiche en grand format</a>
-        </p>
+        <p class="small"><a href="assets/affiche-lancement-journal-original.png" data-i18n="posterLarge">Ouvrir l’affiche en grand format</a></p>
       </div>
     </section>
 
     <section id="projet" class="section">
       <div class="container two-columns">
         <div>
-          <h2>Un journal venu du passé</h2>
-          <p>
-            <strong>Le P’tiot Sampantais</strong> est une publication locale au format journal,
-            imaginée comme si elle avait paru à Sampans au début du XXe siècle.
-            On y retrouve des histoires du village, des archives, des portraits,
-            des clins d’œil à la vie quotidienne et quelques nouvelles du monde.
-          </p>
-          <p>
-            Ce projet est destiné aux habitants, aux familles, aux curieux,
-            aux amoureux de l’histoire locale, mais aussi aux enfants,
-            qui pourront découvrir les petites histoires qui les entourent sans toujours le savoir.
-          </p>
+          <h2 data-i18n="projectTitle">Un journal venu du passé</h2>
+          <p data-i18n="projectP1">Le P’tiot Sampantais est une publication locale au format journal, imaginée comme si elle avait paru à Sampans au début du XXe siècle.</p>
+          <p data-i18n="projectP2">Ce projet est destiné aux habitants, aux familles, aux curieux, aux amoureux de l’histoire locale, mais aussi aux enfants.</p>
         </div>
         <aside class="card">
-          <h3>Lancement</h3>
-          <p><strong>Samedi 27 juin 2026</strong><br>
-          Marché des producteurs<br>
-          Rue Croix-d’Aval, Sampans</p>
-          <p>Jeux, danse médiévale, grand feu de la Saint-Jean, bal monté et restauration sur place.</p>
+          <h3 data-i18n="launchTitle">Lancement</h3>
+          <p><strong data-i18n="launchDate">Samedi 27 juin 2026</strong><br><span data-i18n-html="launchPlace">Marché des producteurs<br>Rue Croix-d’Aval, Sampans</span></p>
+          <p data-i18n="launchProgramme">Jeux, danse médiévale, grand feu de la Saint-Jean, bal monté et restauration sur place.</p>
         </aside>
+      </div>
+    </section>
+
+    <section id="pays" class="section world-section">
+      <div class="container">
+        <h2 data-i18n="worldTitle">Les pays du journal</h2>
+        <p class="large" data-i18n="worldIntro">Le journal regarde Sampans depuis le Jura, mais il dialogue aussi avec les pays et les langues des contributeurs.</p>
+        <div class="country-grid">
+          <article class="country-card"><span>France</span><small>Français</small><button type="button" data-lang="fr">Lire</button></article>
+          <article class="country-card"><span>Canada</span><small>English / Français</small><button type="button" data-lang="en">Lire</button></article>
+          <article class="country-card"><span>États-Unis</span><small>English</small><button type="button" data-lang="en">Lire</button></article>
+          <article class="country-card"><span>Mexique</span><small>Español</small><button type="button" data-lang="es">Lire</button></article>
+          <article class="country-card"><span>Brésil</span><small>Português</small><button type="button" data-lang="pt">Lire</button></article>
+          <article class="country-card"><span>Sénégal</span><small>Français</small><button type="button" data-lang="fr">Lire</button></article>
+          <article class="country-card"><span>Portugal</span><small>Português</small><button type="button" data-lang="pt">Lire</button></article>
+          <article class="country-card"><span>Angleterre</span><small>English</small><button type="button" data-lang="en">Lire</button></article>
+          <article class="country-card"><span>Australie</span><small>English</small><button type="button" data-lang="en">Lire</button></article>
+          <article class="country-card"><span>Allemagne</span><small>Deutsch</small><button type="button" data-lang="de">Lire</button></article>
+          <article class="country-card"><span>Serbie</span><small>Српски</small><button type="button" data-lang="sr">Lire</button></article>
+          <article class="country-card"><span>Chine</span><small>中文</small><button type="button" data-lang="zh">Lire</button></article>
+          <article class="country-card"><span>Pays arabophones</span><small>العربية</small><button type="button" data-lang="ar">Lire</button></article>
+          <article class="country-card"><span>Malaisie</span><small>Bahasa Melayu</small><button type="button" data-lang="ms">Lire</button></article>
+          <article class="country-card"><span>Corée</span><small>한국어</small><button type="button" data-lang="ko">Lire</button></article>
+          <article class="country-card"><span>Sri Lanka</span><small>தமிழ்</small><button type="button" data-lang="ta">Lire</button></article>
+        </div>
       </div>
     </section>
 
     <section id="acheter" class="section accent">
       <div class="container">
-        <h2>Commander le journal</h2>
-        <p class="large">
-          Une formule simple est proposée : <strong>6 € par journal</strong>,
-          dont <strong>5 € pour le journal</strong> et <strong>1 € de don</strong>
-          pour l’École des Chiens Guides de Lyon Centre-Est, à Misérieux.
-        </p>
+        <h2 data-i18n="orderTitle">Commander le journal</h2>
+        <p class="large" data-i18n="orderIntro">Une formule simple est proposée : 6 € par journal, dont 5 € pour le journal et 1 € de don pour l’École des Chiens Guides de Lyon Centre-Est, à Misérieux.</p>
 
         <div class="price-grid">
           <article class="price-card">
-            <h3>Sur place</h3>
+            <h3 data-i18n="onsiteTitle">Sur place</h3>
             <p class="price">6 €</p>
-            <p>Journal compris, avec 1 € reversé à l’association.</p>
+            <p data-i18n="onsiteText">Journal compris, avec 1 € reversé à l’association.</p>
           </article>
-
           <article class="price-card">
-            <h3>Envoi en France</h3>
+            <h3 data-i18n="franceShippingTitle">Envoi en France</h3>
             <p class="price">12 €</p>
-            <p>Journal, don, enveloppe et affranchissement en Lettre suivie compris.</p>
+            <p data-i18n="franceShippingText">Journal, don, enveloppe et affranchissement en Lettre suivie compris.</p>
           </article>
-
           <article class="price-card">
-            <h3>Europe et reste du monde</h3>
+            <h3 data-i18n="worldShippingTitle">Europe et reste du monde</h3>
             <p class="price">18 €</p>
-            <p>Journal, don, enveloppe et affranchissement international compris.</p>
+            <p data-i18n="worldShippingText">Journal, don, enveloppe et affranchissement international compris.</p>
           </article>
         </div>
 
         <div class="order-box">
-          <h3>Dons et frais postaux</h3>
-          <p>
-            Comme les frais postaux sont arrondis, il devrait rester un petit supplément
-            d’environ 1 € par envoi. Ce supplément éventuel pourrait lui aussi être reversé
-            à l’École des Chiens Guides.
-          </p>
-          <p>
-            L’idée est donc simple : <strong>1 € par journal vendu</strong> est reversé
-            à l’association, ainsi que le petit supplément éventuel lié aux envois postaux.
-          </p>
+          <h3 data-i18n="donTitle">Dons et frais postaux</h3>
+          <p data-i18n="donP1">Comme les frais postaux sont arrondis, il devrait rester un petit supplément d’environ 1 € par envoi.</p>
+          <p data-i18n="donP2">L’idée est donc simple : 1 € par journal vendu est reversé à l’association.</p>
         </div>
 
         <div class="donation-example">
-          <h3>Exemple pour 100 journaux</h3>
+          <h3 data-i18n="exampleTitle">Exemple pour 100 journaux</h3>
           <ul>
-            <li><strong>Vendus directement :</strong> environ 100 € de don.</li>
-            <li><strong>Envoyés en France :</strong> environ 200 € de don.</li>
-            <li><strong>Envoyés à l’étranger :</strong> environ 210 € de don.</li>
+            <li data-i18n="example1">Vendus directement : environ 100 € de don.</li>
+            <li data-i18n="example2">Envoyés en France : environ 200 € de don.</li>
+            <li data-i18n="example3">Envoyés à l’étranger : environ 210 € de don.</li>
           </ul>
         </div>
 
         <div class="order-box payment-box">
-          <p>
-            Le lien de paiement sera ajouté ici dès qu’il sera validé.
-          </p>
-          <a class="button primary disabled" href="#" aria-disabled="true">Lien de paiement à venir</a>
+          <p data-i18n="paymentComing">Le lien de paiement sera ajouté ici dès qu’il sera validé.</p>
+          <a class="button primary disabled" href="#" aria-disabled="true" data-i18n="paymentButton">Lien de paiement à venir</a>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <h2>À propos</h2>
-        <p>
-          Ce site est une initiative locale indépendante autour de la mémoire de Sampans.
-          Il ne remplace pas les informations officielles de la commune.
-        </p>
-        <p>
-          Contact : <a href="mailto:contact@sampans.org">contact@sampans.org</a>
-        </p>
+        <h2 data-i18n="aboutTitle">À propos</h2>
+        <p data-i18n="aboutP1">Ce site est une initiative locale indépendante autour de la mémoire de Sampans. Il ne remplace pas les informations officielles de la commune.</p>
+        <p><span data-i18n="contact">Contact :</span> <a href="mailto:contact@sampans.org">contact@sampans.org</a></p>
       </div>
     </section>
   </main>
@@ -143,5 +149,7 @@
       <p>© 2026 Le P’tiot Sampantais — Sampans</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -8,13 +8,8 @@
   --white: #fffaf1;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -30,7 +25,7 @@ body {
 }
 
 .hero {
-  padding: 90px 0 80px;
+  padding: 70px 0;
   background:
     linear-gradient(rgba(31, 27, 22, 0.55), rgba(31, 27, 22, 0.55)),
     repeating-linear-gradient(45deg, #6e2f1a, #6e2f1a 12px, #7c3a22 12px, #7c3a22 24px);
@@ -55,7 +50,46 @@ h1 {
 .subtitle {
   font-size: clamp(1.2rem, 3vw, 1.8rem);
   margin: 22px auto 0;
-  max-width: 720px;
+  max-width: 780px;
+}
+
+.language-panel {
+  margin: 32px auto 0;
+  max-width: 900px;
+  padding: 18px;
+  border: 1px solid rgba(255, 250, 241, 0.45);
+  background: rgba(255, 250, 241, 0.08);
+}
+
+.language-panel p {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.language-button,
+.country-card button {
+  font: inherit;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: var(--white);
+  color: var(--accent-dark);
+}
+
+.language-button.active,
+.country-card button:hover {
+  background: var(--accent-dark);
+  color: var(--white);
 }
 
 .buttons {
@@ -81,27 +115,17 @@ h1 {
   border-color: var(--accent);
 }
 
-.button.secondary {
-  color: var(--white);
-}
-
-.button.disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-}
+.button.secondary { color: var(--white); }
+.button.disabled { opacity: 0.55; cursor: not-allowed; }
 
 .section {
   padding: 56px 0;
   border-bottom: 1px solid var(--line);
 }
 
-.section.accent {
-  background: var(--white);
-}
+.section.accent { background: var(--white); }
 
-.poster-section {
-  text-align: center;
-}
+.poster-section { text-align: center; }
 
 .poster-frame {
   margin: 28px auto 10px;
@@ -125,6 +149,35 @@ h1 {
   align-items: start;
 }
 
+.world-section { background: #efe4d1; }
+
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.country-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 16px;
+  min-height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.country-card span {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.country-card small {
+  color: var(--muted);
+  margin: 6px 0 12px;
+}
+
 h2 {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   margin: 0 0 18px;
@@ -135,18 +188,9 @@ h3 {
   font-size: 1.5rem;
 }
 
-p {
-  font-size: 1.08rem;
-}
-
-.large {
-  font-size: 1.25rem;
-}
-
-.small {
-  color: var(--muted);
-  font-size: 0.95rem;
-}
+p { font-size: 1.08rem; }
+.large { font-size: 1.25rem; }
+.small { color: var(--muted); font-size: 0.95rem; }
 
 .card,
 .order-box,
@@ -158,23 +202,14 @@ p {
   box-shadow: 8px 8px 0 rgba(110, 47, 26, 0.12);
 }
 
-.order-box {
-  margin: 24px 0 12px;
-}
-
-.payment-box {
-  margin-top: 28px;
-}
+.order-box { margin: 24px 0 12px; }
+.payment-box { margin-top: 28px; }
 
 .price-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   margin: 30px 0;
-}
-
-.price-card h3 {
-  margin-bottom: 8px;
 }
 
 .price {
@@ -199,9 +234,7 @@ p {
   font-size: 1.08rem;
 }
 
-a {
-  color: var(--accent-dark);
-}
+a { color: var(--accent-dark); }
 
 footer {
   padding: 28px 0;
@@ -209,22 +242,38 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 900px) {
-  .price-grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 960px) {
+  .country-grid { grid-template-columns: repeat(2, 1fr); }
+  .price-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 760px) {
-  .two-columns {
-    grid-template-columns: 1fr;
-  }
+  .two-columns { grid-template-columns: 1fr; }
+  .hero { padding: 55px 0 50px; }
+  .poster-frame { padding: 8px; }
+}
 
-  .hero {
-    padding: 65px 0 60px;
-  }
+@media (max-width: 520px) {
+  .country-grid { grid-template-columns: 1fr; }
+}
 
-  .poster-frame {
-    padding: 8px;
-  }
+
+/* Ajustements pour l’arabe */
+html[dir="rtl"] body {
+  direction: rtl;
+}
+
+html[dir="rtl"] .buttons,
+html[dir="rtl"] .language-buttons {
+  direction: rtl;
+}
+
+html[dir="rtl"] .poster-section,
+html[dir="rtl"] footer {
+  text-align: center;
+}
+
+html[dir="rtl"] .donation-example ul {
+  padding-left: 0;
+  padding-right: 1.4rem;
 }
