@@ -12,7 +12,7 @@
     <div class="container">
       <p class="kicker" data-i18n="kicker">Sampans • Jura • France</p>
       <h1>Le P’tiot Sampantais</h1>
-      <p class="subtitle" data-i18n="subtitle">Un petit journal local, inspiré de Sampans en 1902, avec des nouvelles du village et du monde.</p>
+      <p class="subtitle" data-i18n="subtitle">Un petit journal local, inspiré de Sampans en 1902.</p>
 
       <div class="language-panel" aria-label="Sélecteur de langue">
         <p data-i18n="languageIntro">Choisir une langue</p>
@@ -64,7 +64,8 @@
         </aside>
       </div>
     </section>
-<section id="acheter" class="section accent">
+
+    <section id="acheter" class="section accent">
       <div class="container">
         <h2 data-i18n="orderTitle">Commander le journal</h2>
         <p class="large" data-i18n="orderIntro">Une formule simple est proposée : 6 € par journal, dont 5 € pour le journal et 1 € de don pour l’École des Chiens Guides de Lyon Centre-Est, à Misérieux.</p>
@@ -92,7 +93,40 @@
           <p data-i18n="donP1">Comme les frais postaux sont arrondis, il devrait rester un petit supplément d’environ 1 € par envoi.</p>
           <p data-i18n="donP2">L’idée est donc simple : 1 € par journal vendu est reversé à l’association.</p>
         </div>
-<div class="order-box payment-box">
+
+        <div class="order-box postal-form-box" id="formulaire-postal">
+          <h3 data-i18n="postalFormTitle">Formulaire pour l’envoi par la poste</h3>
+          <p data-i18n="postalFormIntro">Remplissez ce formulaire pour préparer votre demande d’envoi. Le bouton ouvrira votre logiciel de messagerie avec les informations prêtes à envoyer à contact@sampans.org.</p>
+
+          <form id="postalOrderForm">
+            <div class="form-grid">
+              <label><span data-i18n="fullNameLabel">Nom et prénom *</span><input type="text" name="nom_prenom" required autocomplete="name"></label>
+              <label><span data-i18n="emailLabel">Adresse e-mail *</span><input type="email" name="email" required autocomplete="email"></label>
+              <label class="full"><span data-i18n="postalAddressLabel">Adresse postale complète *</span><textarea name="adresse" rows="3" required autocomplete="street-address"></textarea></label>
+              <label><span data-i18n="postalCodeLabel">Code postal *</span><input type="text" name="code_postal" required autocomplete="postal-code"></label>
+              <label><span data-i18n="cityLabel">Ville *</span><input type="text" name="ville" required autocomplete="address-level2"></label>
+              <label><span data-i18n="countryLabel">Pays *</span><input type="text" name="pays" required autocomplete="country-name"></label>
+              <label><span data-i18n="copiesLabel">Nombre d’exemplaires souhaités *</span><input type="number" name="exemplaires" min="1" step="1" value="1" required></label>
+              <label>
+                <span data-i18n="shippingModeLabel">Mode d’envoi choisi *</span>
+                <select name="mode_envoi" required>
+                  <option value="" data-i18n="chooseOption">Choisir…</option>
+                  <option value="France" data-i18n="shippingFranceOption">France</option>
+                  <option value="Europe" data-i18n="shippingEuropeOption">Europe</option>
+                  <option value="Reste du monde" data-i18n="shippingWorldOption">Reste du monde</option>
+                </select>
+              </label>
+              <label><span data-i18n="phoneLabel">Numéro de téléphone, facultatif</span><input type="tel" name="telephone" autocomplete="tel"></label>
+              <label class="full"><span data-i18n="paymentProofLabel">Preuve ou confirmation de paiement, si paiement par virement *</span><textarea name="preuve_paiement" rows="3" required data-i18n-placeholder="paymentProofPlaceholder" placeholder="Exemple : virement effectué le…, nom du titulaire, référence éventuelle. Si vous avez une capture d’écran, joignez-la ensuite à l’e-mail."></textarea></label>
+              <label class="full"><span data-i18n="messageLabel">Message particulier, facultatif</span><textarea name="message" rows="3" data-i18n-placeholder="messagePlaceholder" placeholder="Exemple : à offrir, envoi à une autre personne, précision de livraison…"></textarea></label>
+            </div>
+
+            <p class="form-note" data-i18n="formNote">Aucun paiement n’est effectué par ce formulaire. Il sert uniquement à envoyer les informations nécessaires à la préparation de l’envoi postal.</p>
+            <button class="button primary form-submit" type="submit" data-i18n="formSubmitButton">Préparer l’e-mail de commande</button>
+          </form>
+        </div>
+
+        <div class="order-box payment-box">
           <p data-i18n="paymentComing">Le lien de paiement sera ajouté ici dès qu’il sera validé.</p>
           <a class="button primary disabled" href="#" aria-disabled="true" data-i18n="paymentButton">Lien de paiement à venir</a>
         </div>
@@ -108,12 +142,7 @@
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>© 2026 Le P’tiot Sampantais — Sampans</p>
-    </div>
-  </footer>
-
+  <footer><div class="container"><p>© 2026 Le P’tiot Sampantais — Sampans</p></div></footer>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,20 +1,22 @@
-# Site GitHub Pages pour www.sampans.org
+# Site GitHub Pages complet pour www.sampans.org
 
-Cette version met à jour la page :
-
-- suppression de la section “Les pays du journal” ;
-- suppression de la section “Exemple pour 100 journaux” ;
-- ajout d’un formulaire pour les commandes par la poste ;
-- le formulaire prépare un e-mail à envoyer à contact@sampans.org.
-
-Fichiers à déposer à la racine du dépôt GitHub :
+Cette version contient bien tous les fichiers nécessaires :
 
 - index.html
 - style.css
 - script.js
 - CNAME
 - .nojekyll
-- assets/
+- assets/affiche-lancement-journal.jpg
+- assets/affiche-lancement-journal-original.png
 
-Important :
-GitHub Pages est un site statique. Le formulaire ouvre donc un e-mail prérempli dans le logiciel de messagerie du visiteur. Pour envoyer automatiquement les données sans e-mail, il faudra ajouter plus tard un service externe de formulaire.
+Modifications incluses :
+
+- suppression de la section “Les pays du journal” ;
+- suppression de la section “Exemple pour 100 journaux” ;
+- formulaire postal qui prépare un e-mail à envoyer à contact@sampans.org ;
+- affiche incluse dans le dossier assets ;
+- sélecteur de langues conservé.
+
+Remarque Mac :
+Le fichier .nojekyll commence par un point, il peut donc être masqué dans le Finder. Pour voir les fichiers masqués : Cmd + Maj + .
