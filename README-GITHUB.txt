@@ -1,23 +1,14 @@
-# Site GitHub Pages multilingue pour www.sampans.org
+# Site GitHub Pages pour www.sampans.org
 
-Cette version ajoute les langues demandées :
+Cette version met à jour la page :
 
-- Français
-- English
-- Español
-- Português
-- Deutsch
-- Српски
-- 中文
-- العربية
-- Bahasa Melayu
-- 한국어
-- தமிழ்
+- suppression de la section “Les pays du journal” ;
+- suppression de la section “Exemple pour 100 journaux” ;
+- ajout d’un formulaire pour les commandes par la poste ;
+- le formulaire prépare un e-mail à envoyer à contact@sampans.org.
 
-Pays/langues présentés dans la section “Les pays du journal” :
-France, Canada, États-Unis, Mexique, Brésil, Sénégal, Portugal, Angleterre, Australie, Allemagne, Serbie, Chine, pays arabophones, Malaisie, Corée et Sri Lanka.
+Fichiers à déposer à la racine du dépôt GitHub :
 
-À déposer à la racine du dépôt GitHub :
 - index.html
 - style.css
 - script.js
@@ -25,4 +16,5 @@ France, Canada, États-Unis, Mexique, Brésil, Sénégal, Portugal, Angleterre, 
 - .nojekyll
 - assets/
 
-Important : les traductions sont une première version. Pour une communication officielle, il est préférable de les faire relire par des locuteurs natifs.
+Important :
+GitHub Pages est un site statique. Le formulaire ouvre donc un e-mail prérempli dans le logiciel de messagerie du visiteur. Pour envoyer automatiquement les données sans e-mail, il faudra ajouter plus tard un service externe de formulaire.
