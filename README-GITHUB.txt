@@ -1,17 +1,25 @@
-# Site GitHub Pages avec FormSubmit et calcul du prix
+# Site GitHub Pages — phase 1 avec paiement
 
-Modifications incluses :
+Cette version ajoute :
 
-- formulaire envoyé automatiquement à contact@sampans.org via FormSubmit ;
-- nombre d’exemplaires par défaut : 1 ;
-- suppression du champ “Preuve ou confirmation de paiement” ;
-- calcul automatique du prix :
-  - France : 12 € par exemplaire
-  - Europe : 18 € par exemplaire
-  - Reste du monde : 18 € par exemplaire
-- lien pour commande spéciale à contact@sampans.org ;
-- affiche incluse dans le dossier assets ;
-- fichier CNAME pour www.sampans.org.
+- redirection FormSubmit vers https://www.sampans.org/paiement.html ;
+- page paiement.html avec liens Mollie ;
+- page merci.html pour le retour après paiement Mollie ;
+- traduction revue pour les textes liés au formulaire et au paiement ;
+- dossier assets inclus.
 
-Important :
-Au premier envoi du formulaire, FormSubmit peut demander une validation de l’adresse contact@sampans.org.
+Liens Mollie intégrés :
+
+- Sur place / retrait : 6,28 €
+- France : 12,35 €
+
+Tous les liens Mollie sont maintenant intégrés :
+- Sur place / retrait : 6,28 €
+- France : 12,35 €
+- Europe et reste du monde : 18,42 €
+
+Dans Mollie, garder l’URL de redirection après paiement :
+https://www.sampans.org/merci.html
+
+Dans FormSubmit, le formulaire redirige vers :
+https://www.sampans.org/paiement.html

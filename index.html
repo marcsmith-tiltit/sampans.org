@@ -102,6 +102,9 @@
             <input type="hidden" name="_subject" value="Commande postale — Le P’tiot Sampantais">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://www.sampans.org/paiement.html">
+            <input type="hidden" name="Montant journal et envoi" id="hiddenSubtotalPrice" value="Non calculé">
+            <input type="hidden" name="Frais de paiement estimés" id="hiddenPaymentFees" value="Non calculé">
             <input type="hidden" name="Prix total calculé" id="hiddenTotalPrice" value="Non calculé">
             <div class="form-grid">
               <label><span data-i18n="fullNameLabel">Nom et prénom *</span><input type="text" name="Nom et prénom" required autocomplete="name"></label>
@@ -128,7 +131,7 @@
             <div class="calculated-price">
               <h4 data-i18n="priceTitle">Prix calculé</h4>
               <p id="priceResult">Choisissez le mode d’envoi.</p>
-              <p class="small" data-i18n="priceHelp">Le prix se calcule automatiquement selon le nombre d’exemplaires et le mode d’envoi.</p>
+              <p class="small" data-i18n="priceHelp">Le prix se calcule automatiquement avec les frais de paiement estimés.</p>
             </div>
 
             <p class="special-order"><span data-i18n="specialOrder">Pour une commande spéciale, écrivez directement à</span> <a href="mailto:contact@sampans.org">contact@sampans.org</a>.</p>
@@ -139,8 +142,8 @@
         </div>
 
         <div class="order-box payment-box">
-          <p data-i18n="paymentComing">Le lien de paiement sera ajouté ici dès qu’il sera validé.</p>
-          <a class="button primary disabled" href="#" aria-disabled="true" data-i18n="paymentButton">Lien de paiement à venir</a>
+          <p data-i18n="paymentComing">Après l’envoi du formulaire, vous serez dirigé vers la page de paiement.</p>
+          <a class="button primary" href="paiement.html" data-i18n="paymentButton">Aller à la page de paiement</a>
         </div>
       </div>
     </section>
