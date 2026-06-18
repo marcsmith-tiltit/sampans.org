@@ -96,33 +96,45 @@
 
         <div class="order-box postal-form-box" id="formulaire-postal">
           <h3 data-i18n="postalFormTitle">Formulaire pour l’envoi par la poste</h3>
-          <p data-i18n="postalFormIntro">Remplissez ce formulaire pour préparer votre demande d’envoi. Le bouton ouvrira votre logiciel de messagerie avec les informations prêtes à envoyer à contact@sampans.org.</p>
+          <p data-i18n="postalFormIntro">Remplissez ce formulaire pour envoyer automatiquement votre demande à contact@sampans.org.</p>
 
-          <form id="postalOrderForm">
+          <form id="postalOrderForm" action="https://formsubmit.co/contact@sampans.org" method="POST">
+            <input type="hidden" name="_subject" value="Commande postale — Le P’tiot Sampantais">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="Prix total calculé" id="hiddenTotalPrice" value="Non calculé">
             <div class="form-grid">
-              <label><span data-i18n="fullNameLabel">Nom et prénom *</span><input type="text" name="nom_prenom" required autocomplete="name"></label>
-              <label><span data-i18n="emailLabel">Adresse e-mail *</span><input type="email" name="email" required autocomplete="email"></label>
-              <label class="full"><span data-i18n="postalAddressLabel">Adresse postale complète *</span><textarea name="adresse" rows="3" required autocomplete="street-address"></textarea></label>
-              <label><span data-i18n="postalCodeLabel">Code postal *</span><input type="text" name="code_postal" required autocomplete="postal-code"></label>
-              <label><span data-i18n="cityLabel">Ville *</span><input type="text" name="ville" required autocomplete="address-level2"></label>
-              <label><span data-i18n="countryLabel">Pays *</span><input type="text" name="pays" required autocomplete="country-name"></label>
-              <label><span data-i18n="copiesLabel">Nombre d’exemplaires souhaités *</span><input type="number" name="exemplaires" min="1" step="1" value="1" required></label>
+              <label><span data-i18n="fullNameLabel">Nom et prénom *</span><input type="text" name="Nom et prénom" required autocomplete="name"></label>
+              <label><span data-i18n="emailLabel">Adresse e-mail *</span><input type="email" name="Adresse e-mail" required autocomplete="email"></label>
+              <label class="full"><span data-i18n="postalAddressLabel">Adresse postale complète *</span><textarea name="Adresse postale complète" rows="3" required autocomplete="street-address"></textarea></label>
+              <label><span data-i18n="postalCodeLabel">Code postal *</span><input type="text" name="Code postal" required autocomplete="postal-code"></label>
+              <label><span data-i18n="cityLabel">Ville *</span><input type="text" name="Ville" required autocomplete="address-level2"></label>
+              <label><span data-i18n="countryLabel">Pays *</span><input type="text" name="Pays" required autocomplete="country-name"></label>
+              <label><span data-i18n="copiesLabel">Nombre d’exemplaires souhaités *</span><input id="copiesInput" type="number" name="Nombre d’exemplaires souhaités" min="1" step="1" value="1" required></label>
               <label>
                 <span data-i18n="shippingModeLabel">Mode d’envoi choisi *</span>
-                <select name="mode_envoi" required>
+                <select id="shippingMode" name="Mode d’envoi choisi" required>
                   <option value="" data-i18n="chooseOption">Choisir…</option>
-                  <option value="France" data-i18n="shippingFranceOption">France</option>
-                  <option value="Europe" data-i18n="shippingEuropeOption">Europe</option>
-                  <option value="Reste du monde" data-i18n="shippingWorldOption">Reste du monde</option>
+                  <option value="France" data-i18n="shippingFranceOption">France — 12 € par exemplaire</option>
+                  <option value="Europe" data-i18n="shippingEuropeOption">Europe — 18 € par exemplaire</option>
+                  <option value="Reste du monde" data-i18n="shippingWorldOption">Reste du monde — 18 € par exemplaire</option>
                 </select>
               </label>
-              <label><span data-i18n="phoneLabel">Numéro de téléphone, facultatif</span><input type="tel" name="telephone" autocomplete="tel"></label>
-              <label class="full"><span data-i18n="paymentProofLabel">Preuve ou confirmation de paiement, si paiement par virement *</span><textarea name="preuve_paiement" rows="3" required data-i18n-placeholder="paymentProofPlaceholder" placeholder="Exemple : virement effectué le…, nom du titulaire, référence éventuelle. Si vous avez une capture d’écran, joignez-la ensuite à l’e-mail."></textarea></label>
-              <label class="full"><span data-i18n="messageLabel">Message particulier, facultatif</span><textarea name="message" rows="3" data-i18n-placeholder="messagePlaceholder" placeholder="Exemple : à offrir, envoi à une autre personne, précision de livraison…"></textarea></label>
+              <label><span data-i18n="phoneLabel">Numéro de téléphone, facultatif</span><input type="tel" name="Numéro de téléphone" autocomplete="tel"></label>
+              <label class="full"><span data-i18n="messageLabel">Message particulier, facultatif</span><textarea name="Message particulier" rows="3" data-i18n-placeholder="messagePlaceholder" placeholder="Exemple : à offrir, envoi à une autre personne, précision de livraison…"></textarea></label>
             </div>
 
-            <p class="form-note" data-i18n="formNote">Aucun paiement n’est effectué par ce formulaire. Il sert uniquement à envoyer les informations nécessaires à la préparation de l’envoi postal.</p>
-            <button class="button primary form-submit" type="submit" data-i18n="formSubmitButton">Préparer l’e-mail de commande</button>
+
+            <div class="calculated-price">
+              <h4 data-i18n="priceTitle">Prix calculé</h4>
+              <p id="priceResult">Choisissez le mode d’envoi.</p>
+              <p class="small" data-i18n="priceHelp">Le prix se calcule automatiquement selon le nombre d’exemplaires et le mode d’envoi.</p>
+            </div>
+
+            <p class="special-order"><span data-i18n="specialOrder">Pour une commande spéciale, écrivez directement à</span> <a href="mailto:contact@sampans.org">contact@sampans.org</a>.</p>
+
+            <p class="form-note" data-i18n="formNote">Les informations transmises servent uniquement à préparer l’envoi du journal par la poste. Elles ne seront pas utilisées à d’autres fins.</p>
+            <button class="button primary form-submit" type="submit" data-i18n="formSubmitButton">Envoyer la demande de commande</button>
           </form>
         </div>
 

@@ -28,7 +28,7 @@ const translations = {
     "donP1": "Comme les frais postaux sont arrondis, il devrait rester un petit supplément d’environ 1 € par envoi. Ce supplément éventuel pourrait lui aussi être reversé à l’École des Chiens Guides.",
     "donP2": "L’idée est donc simple : 1 € par journal vendu est reversé à l’association, ainsi que le petit supplément éventuel lié aux envois postaux.",
     "postalFormTitle": "Formulaire pour l’envoi par la poste",
-    "postalFormIntro": "Remplissez ce formulaire pour préparer votre demande d’envoi. Le bouton ouvrira votre logiciel de messagerie avec les informations prêtes à envoyer à contact@sampans.org.",
+    "postalFormIntro": "Remplissez ce formulaire pour envoyer automatiquement votre demande à contact@sampans.org.",
     "fullNameLabel": "Nom et prénom *",
     "emailLabel": "Adresse e-mail *",
     "postalAddressLabel": "Adresse postale complète *",
@@ -38,21 +38,24 @@ const translations = {
     "copiesLabel": "Nombre d’exemplaires souhaités *",
     "shippingModeLabel": "Mode d’envoi choisi *",
     "chooseOption": "Choisir…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Reste du monde",
+    "shippingFranceOption": "France — 12 € par exemplaire",
+    "shippingEuropeOption": "Europe — 18 € par exemplaire",
+    "shippingWorldOption": "Reste du monde — 18 € par exemplaire",
     "phoneLabel": "Numéro de téléphone, facultatif",
     "paymentProofLabel": "Preuve ou confirmation de paiement, si paiement par virement *",
     "paymentProofPlaceholder": "Exemple : virement effectué le…, nom du titulaire, référence éventuelle. Si vous avez une capture d’écran, joignez-la ensuite à l’e-mail.",
     "messageLabel": "Message particulier, facultatif",
     "messagePlaceholder": "Exemple : à offrir, envoi à une autre personne, précision de livraison…",
-    "formNote": "Aucun paiement n’est effectué par ce formulaire. Il sert uniquement à envoyer les informations nécessaires à la préparation de l’envoi postal.",
-    "formSubmitButton": "Préparer l’e-mail de commande",
+    "formNote": "Les informations transmises servent uniquement à préparer l’envoi du journal par la poste. Elles ne seront pas utilisées à d’autres fins.",
+    "formSubmitButton": "Envoyer la demande de commande",
     "paymentComing": "Le lien de paiement sera ajouté ici dès qu’il sera validé.",
     "paymentButton": "Lien de paiement à venir",
     "aboutTitle": "À propos",
     "aboutP1": "Ce site est une initiative locale indépendante autour de la mémoire de Sampans. Il ne remplace pas les informations officielles de la commune.",
-    "contact": "Contact :"
+    "contact": "Contact :",
+    "priceTitle": "Prix calculé",
+    "priceHelp": "Le prix se calcule automatiquement selon le nombre d’exemplaires et le mode d’envoi.",
+    "specialOrder": "Pour une commande spéciale, écrivez directement à"
   },
   "en": {
     "languageName": "English",
@@ -83,7 +86,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -93,21 +96,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Prepare the order email",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "de": {
     "languageName": "Deutsch",
@@ -138,7 +144,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Formular für den Postversand",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -148,21 +154,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Telefon, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Besondere Nachricht, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Bestell-E-Mail vorbereiten",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "sr": {
     "languageName": "Српски",
@@ -193,7 +202,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Образац за слање поштом",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -203,21 +212,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Припремити е-поруку за наруџбину",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "zh": {
     "languageName": "中文",
@@ -248,7 +260,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "邮寄表格",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -258,21 +270,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "准备订单邮件",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "ar": {
     "languageName": "العربية",
@@ -303,7 +318,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "استمارة الإرسال بالبريد",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "الاسم واللقب *",
     "emailLabel": "البريد الإلكتروني *",
     "postalAddressLabel": "العنوان البريدي الكامل *",
@@ -313,21 +328,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "تحضير رسالة الطلب",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "ms": {
     "languageName": "Bahasa Melayu",
@@ -358,7 +376,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Borang penghantaran pos",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -368,21 +386,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Sediakan e-mel pesanan",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "es": {
     "languageName": "Español",
@@ -413,7 +434,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -423,21 +444,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Prepare the order email",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "pt": {
     "languageName": "Português",
@@ -468,7 +492,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -478,21 +502,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Prepare the order email",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "ko": {
     "languageName": "한국어",
@@ -523,7 +550,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -533,21 +560,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Prepare the order email",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   },
   "ta": {
     "languageName": "தமிழ்",
@@ -578,7 +608,7 @@ const translations = {
     "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
     "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Fill in this form to prepare your postal order request. The button will open your email app with the details ready to send to contact@sampans.org.",
+    "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org.",
     "fullNameLabel": "Full name *",
     "emailLabel": "Email address *",
     "postalAddressLabel": "Full postal address *",
@@ -588,21 +618,24 @@ const translations = {
     "copiesLabel": "Number of copies requested *",
     "shippingModeLabel": "Chosen shipping method *",
     "chooseOption": "Choose…",
-    "shippingFranceOption": "France",
-    "shippingEuropeOption": "Europe",
-    "shippingWorldOption": "Rest of the world",
+    "shippingFranceOption": "France — €12 per copy",
+    "shippingEuropeOption": "Europe — €18 per copy",
+    "shippingWorldOption": "Rest of the world — €18 per copy",
     "phoneLabel": "Phone number, optional",
     "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
     "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
     "messageLabel": "Special message, optional",
     "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "No payment is made through this form. It only sends the details needed to prepare the postal delivery.",
-    "formSubmitButton": "Prepare the order email",
+    "formNote": "The information sent is used only to prepare the postal delivery of the newspaper. It will not be used for any other purpose.",
+    "formSubmitButton": "Send order request",
     "paymentComing": "The payment link will be added here as soon as it is validated.",
     "paymentButton": "Payment link coming soon",
     "aboutTitle": "About",
     "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:"
+    "contact": "Contact:",
+    "priceTitle": "Calculated price",
+    "priceHelp": "The price is calculated automatically according to the number of copies and the shipping method.",
+    "specialOrder": "For a special order, please write directly to"
   }
 };
 
@@ -633,51 +666,34 @@ function setLanguage(lang) {
   localStorage.setItem("sampansLanguage", lang);
 }
 
-function valueOf(form, name) {
-  const field = form.elements[name];
-  return field ? String(field.value || "").trim() : "";
-}
+function updateCalculatedPrice() {
+  const copiesInput = document.getElementById("copiesInput");
+  const shippingMode = document.getElementById("shippingMode");
+  const priceResult = document.getElementById("priceResult");
+  const hiddenTotalPrice = document.getElementById("hiddenTotalPrice");
+  if (!copiesInput || !shippingMode || !priceResult || !hiddenTotalPrice) return;
 
-function preparePostalOrderEmail(event) {
-  event.preventDefault();
+  let copies = parseInt(copiesInput.value || "1", 10);
+  if (!Number.isFinite(copies) || copies < 1) copies = 1;
+  copiesInput.value = copies;
 
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
+  let unitPrice = 0;
+  let label = shippingMode.value;
 
-  const subject = "Commande postale — Le P’tiot Sampantais";
+  if (shippingMode.value === "France") unitPrice = 12;
+  if (shippingMode.value === "Europe") unitPrice = 18;
+  if (shippingMode.value === "Reste du monde") unitPrice = 18;
 
-  const body = [
-    "Bonjour,",
-    "",
-    "Je souhaite commander Le P’tiot Sampantais par la poste.",
-    "",
-    "Nom et prénom : " + valueOf(form, "nom_prenom"),
-    "Adresse e-mail : " + valueOf(form, "email"),
-    "",
-    "Adresse postale complète :",
-    valueOf(form, "adresse"),
-    "",
-    "Code postal : " + valueOf(form, "code_postal"),
-    "Ville : " + valueOf(form, "ville"),
-    "Pays : " + valueOf(form, "pays"),
-    "",
-    "Nombre d’exemplaires souhaités : " + valueOf(form, "exemplaires"),
-    "Mode d’envoi choisi : " + valueOf(form, "mode_envoi"),
-    "",
-    "Preuve ou confirmation de paiement, si paiement par virement :",
-    valueOf(form, "preuve_paiement"),
-    "",
-    "Téléphone : " + (valueOf(form, "telephone") || "Non renseigné"),
-    "",
-    "Message particulier :",
-    valueOf(form, "message") || "Aucun",
-    "",
-    "Merci."
-  ].join("\n");
+  if (!unitPrice) {
+    priceResult.textContent = "Choisissez le mode d’envoi.";
+    hiddenTotalPrice.value = "Non calculé";
+    return;
+  }
 
-  window.location.href = "mailto:contact@sampans.org"
-    + "?subject=" + encodeURIComponent(subject)
-    + "&body=" + encodeURIComponent(body);
+  const total = copies * unitPrice;
+  const text = total + " € — " + copies + " exemplaire" + (copies > 1 ? "s" : "") + " — " + label;
+  priceResult.textContent = text;
+  hiddenTotalPrice.value = text;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -689,10 +705,14 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => setLanguage(button.getAttribute("data-lang")));
   });
 
-  const postalForm = document.getElementById("postalOrderForm");
-  if (postalForm) {
-    postalForm.addEventListener("submit", preparePostalOrderEmail);
-  }
+  const copiesInput = document.getElementById("copiesInput");
+  const shippingMode = document.getElementById("shippingMode");
+  const form = document.getElementById("postalOrderForm");
+
+  if (copiesInput) copiesInput.addEventListener("input", updateCalculatedPrice);
+  if (shippingMode) shippingMode.addEventListener("change", updateCalculatedPrice);
+  if (form) form.addEventListener("submit", updateCalculatedPrice);
 
   setLanguage(initialLanguage);
+  updateCalculatedPrice();
 });

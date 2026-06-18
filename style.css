@@ -194,3 +194,28 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   .poster-frame { padding: 8px; }
   .form-grid { grid-template-columns: 1fr; }
 }
+
+
+/* Prix calculé */
+.calculated-price {
+  margin-top: 22px;
+  padding: 18px;
+  border: 2px dashed var(--line);
+  background: #fffaf1;
+}
+
+.calculated-price h4 {
+  margin: 0 0 6px;
+  font-size: 1.3rem;
+}
+
+#priceResult {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: bold;
+  color: var(--accent-dark);
+}
+
+.special-order {
+  margin-top: 18px;
+}
