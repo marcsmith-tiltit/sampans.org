@@ -265,3 +265,24 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Radio Lavoir */
+.radio-section {
+  text-align: center;
+  background: #efe4d1;
+}
+
+.radio-player {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px;
+  background: var(--white);
+  border: 2px solid var(--line);
+  box-shadow: 8px 8px 0 rgba(110, 47, 26, 0.12);
+}
+
+.radio-player iframe {
+  display: block;
+  max-width: 100%;
+}

@@ -23,17 +23,13 @@
           <button class="language-button" type="button" data-lang="pt">Português</button>
           <button class="language-button" type="button" data-lang="de">Deutsch</button>
           <button class="language-button" type="button" data-lang="sr">Српски</button>
-          <button class="language-button" type="button" data-lang="zh">中文</button>
-          <button class="language-button" type="button" data-lang="ar">العربية</button>
-          <button class="language-button" type="button" data-lang="ms">Bahasa Melayu</button>
-          <button class="language-button" type="button" data-lang="ko">한국어</button>
-          <button class="language-button" type="button" data-lang="ta">தமிழ்</button>
         </div>
       </div>
 
       <div class="buttons">
         <a class="button primary" href="#acheter" data-i18n="orderButton">Commander un exemplaire</a>
         <a class="button secondary" href="#affiche" data-i18n="posterButton">Voir l’affiche</a>
+        <a class="button secondary" href="#radio-lavoir" data-i18n="radioButton">Écouter Radio Lavoir</a>
       </div>
     </div>
   </header>
@@ -47,6 +43,19 @@
           <img src="assets/affiche-lancement-journal.jpg" alt="Affiche de lancement du journal Le P’tiot Sampantais au marché des producteurs de Sampans, samedi 27 juin 2026 à partir de 9h00.">
         </figure>
         <p class="small"><a href="assets/affiche-lancement-journal-original.png" data-i18n="posterLarge">Ouvrir l’affiche en grand format</a></p>
+      </div>
+    </section>
+
+
+    <section id="radio-lavoir" class="section radio-section">
+      <div class="container">
+        <h2 data-i18n="radioTitle">Radio Lavoir</h2>
+        <p class="large" data-i18n="radioIntro">
+          Écoutez Radio Lavoir, avec ses flashs d’information et ses musiques du début du XXe siècle.
+        </p>
+        <div class="radio-player">
+          <iframe frameborder="0" width="280" height="215" src="https://radiolavoir.airtime.pro/embed/player?stream=auto&title=Now%20Playing" title="Radio Lavoir — lecteur audio"></iframe>
+        </div>
       </div>
     </section>
 
@@ -134,16 +143,11 @@
               <p class="small" data-i18n="priceHelp">Le prix se calcule automatiquement avec les frais de paiement estimés.</p>
             </div>
 
-            <p class="special-order"><span data-i18n="specialOrder">Pour une commande spéciale, écrivez directement à</span> <a href="mailto:contact@sampans.org">contact@sampans.org</a>.</p>
+            <p class="special-order">Pour une commande spéciale, écrivez directement à <a href="mailto:contact@sampans.org">contact@sampans.org</a>.</p>
 
             <p class="form-note" data-i18n="formNote">Les informations transmises servent uniquement à préparer l’envoi du journal par la poste. Elles ne seront pas utilisées à d’autres fins.</p>
             <button class="button primary form-submit" type="submit" data-i18n="formSubmitButton">Envoyer la demande de commande</button>
           </form>
-        </div>
-
-        <div class="order-box payment-box">
-          <p data-i18n="paymentComing">Après l’envoi du formulaire, vous serez dirigé vers la page de paiement.</p>
-          <a class="button primary" href="paiement.html" data-i18n="paymentButton">Aller à la page de paiement</a>
         </div>
       </div>
     </section>
