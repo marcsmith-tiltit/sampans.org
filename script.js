@@ -56,9 +56,10 @@ const translations = {
     "priceTitle": "Prix calculé",
     "priceHelp": "Le prix se calcule automatiquement avec les frais de paiement estimés.",
     "specialOrder": "Pour une commande spéciale, écrivez directement à",
-    "radioButton": "Écouter Radio Lavoir",
+    "radioButton": "Écouter maintenant",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Écoutez Radio Lavoir, avec ses flashs d’information et ses musiques du début du XXe siècle."
+    "radioIntro": "Écoutez Radio Lavoir : mieux vaut l’avoir, même sans la voir. Le lecteur est aussi disponible ci-dessous.",
+    "listenNowButton": "Écouter maintenant"
   },
   "en": {
     "languageName": "English",
@@ -117,9 +118,10 @@ const translations = {
     "priceTitle": "Calculated price",
     "priceHelp": "The price is calculated automatically with estimated payment fees.",
     "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Listen to Radio Lavoir",
+    "radioButton": "Listen now",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Listen to Radio Lavoir, with news flashes and music from the early twentieth century."
+    "radioIntro": "Listen to Radio Lavoir. The embedded player is also available below.",
+    "listenNowButton": "Listen now"
   },
   "de": {
     "languageName": "Deutsch",
@@ -178,9 +180,10 @@ const translations = {
     "priceTitle": "Calculated price",
     "priceHelp": "Der Preis wird automatisch mit geschätzten Zahlungsgebühren berechnet.",
     "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Radio Lavoir hören",
+    "radioButton": "Jetzt hören",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Hören Sie Radio Lavoir, mit Nachrichteneinspielungen und Musik vom Anfang des 20. Jahrhunderts."
+    "radioIntro": "Hören Sie Radio Lavoir. Der Player ist auch unten verfügbar.",
+    "listenNowButton": "Jetzt hören"
   },
   "sr": {
     "languageName": "Српски",
@@ -239,9 +242,10 @@ const translations = {
     "priceTitle": "Calculated price",
     "priceHelp": "Цена се аутоматски израчунава са процењеним трошковима плаћања.",
     "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Слушати Radio Lavoir",
+    "radioButton": "Слушати сада",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Слушајте Radio Lavoir, са кратким вестима и музиком с почетка двадесетог века."
+    "radioIntro": "Слушајте Radio Lavoir. Плејер је доступан и испод.",
+    "listenNowButton": "Слушати сада"
   },
   "es": {
     "languageName": "Español",
@@ -300,9 +304,10 @@ const translations = {
     "priceTitle": "Calculated price",
     "priceHelp": "El precio se calcula automáticamente con los gastos de pago estimados.",
     "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Escuchar Radio Lavoir",
+    "radioButton": "Escuchar ahora",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Escuche Radio Lavoir, con boletines informativos y música de comienzos del siglo XX."
+    "radioIntro": "Escuche Radio Lavoir. El reproductor también está disponible abajo.",
+    "listenNowButton": "Escuchar ahora"
   },
   "pt": {
     "languageName": "Português",
@@ -361,9 +366,10 @@ const translations = {
     "priceTitle": "Calculated price",
     "priceHelp": "O preço é calculado automaticamente com as taxas de pagamento estimadas.",
     "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Ouvir a Radio Lavoir",
+    "radioButton": "Ouvir agora",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Ouça a Radio Lavoir, com boletins informativos e músicas do início do século XX."
+    "radioIntro": "Ouça a Radio Lavoir. O leitor também está disponível abaixo.",
+    "listenNowButton": "Ouvir agora"
   }
 };
 

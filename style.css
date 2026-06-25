@@ -286,3 +286,10 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   display: block;
   max-width: 100%;
 }
+
+
+.listen-now-button {
+  font-size: 1.25rem;
+  padding: 16px 26px;
+  margin-top: 8px;
+}

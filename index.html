@@ -6,6 +6,12 @@
   <title>Le P’tiot Sampantais — Sampans</title>
   <meta name="description" content="Site multilingue pour présenter Le P’tiot Sampantais, journal local inspiré de Sampans en 1902.">
   <link rel="stylesheet" href="style.css">
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-1O7EbTApC3vd435JIiavt.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
 </head>
 <body>
   <header class="hero">
@@ -29,7 +35,7 @@
       <div class="buttons">
         <a class="button primary" href="#acheter" data-i18n="orderButton">Commander un exemplaire</a>
         <a class="button secondary" href="#affiche" data-i18n="posterButton">Voir l’affiche</a>
-        <a class="button secondary" href="#radio-lavoir" data-i18n="radioButton">Écouter Radio Lavoir</a>
+        <a class="button secondary" href="#radio-lavoir" data-i18n="radioButton">Écouter maintenant</a>
       </div>
     </div>
   </header>
@@ -52,6 +58,9 @@
         <h2 data-i18n="radioTitle">Radio Lavoir</h2>
         <p class="large" data-i18n="radioIntro">
           Écoutez Radio Lavoir, avec ses flashs d’information et ses musiques du début du XXe siècle.
+        </p>
+        <p>
+          <a class="button primary listen-now-button" href="https://radiolavoir.airtime.pro" target="_blank" rel="noopener" data-i18n="listenNowButton">Écouter maintenant</a>
         </p>
         <div class="radio-player">
           <iframe frameborder="0" width="280" height="215" src="https://radiolavoir.airtime.pro/embed/player?stream=auto&title=Now%20Playing" title="Radio Lavoir — lecteur audio"></iframe>
