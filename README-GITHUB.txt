@@ -49,3 +49,13 @@ Le script Plausible a été remplacé par le script exact fourni :
   window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
   plausible.init()
 </script>
+
+
+Mise à jour du lancement :
+- ajout d’une section “Le lancement du journal” ;
+- mention de l’annulation du marché des producteurs en raison de la canicule ;
+- mention du lancement en petit comité au Mont-Roland ;
+- mention de l’anniversaire de Jacky avec gâteau et crémant du Jura ;
+- mention de l’article de Patrice Genreau dans Le Progrès ;
+- rappel du format Belle Époque, daté du 17 novembre 1902 ;
+- ajout de l’idée d’une possible suite pour la Pentecôte 1867.

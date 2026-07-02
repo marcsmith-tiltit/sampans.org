@@ -293,3 +293,33 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   padding: 16px 26px;
   margin-top: 8px;
 }
+
+
+/* Actualités du lancement */
+.news-section {
+  background: var(--paper);
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.news-card {
+  background: var(--white);
+  border: 2px solid var(--line);
+  padding: 24px;
+  box-shadow: 8px 8px 0 rgba(110, 47, 26, 0.12);
+}
+
+.memory-box {
+  margin-top: 28px;
+}
+
+@media (max-width: 960px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
