@@ -25,22 +25,28 @@
         <div class="language-buttons">
           <button class="language-button" type="button" data-lang="fr">Français</button>
           <button class="language-button" type="button" data-lang="en">English</button>
-          <button class="language-button" type="button" data-lang="es">Español</button>
-          <button class="language-button" type="button" data-lang="pt">Português</button>
-          <button class="language-button" type="button" data-lang="de">Deutsch</button>
-          <button class="language-button" type="button" data-lang="sr">Српски</button>
         </div>
       </div>
 
       <div class="buttons">
         <a class="button primary" href="#acheter" data-i18n="orderButton">Commander un exemplaire</a>
         <a class="button secondary" href="#affiche" data-i18n="posterButton">Voir l’affiche</a>
-        <a class="button secondary" href="#radio-lavoir" data-i18n="radioButton">Écouter maintenant</a>
       </div>
     </div>
   </header>
 
   <main>
+<section id="radio-lavoir" class="section radio-section">
+      <div class="container">
+        <h2 data-i18n="radioTitle">Radio Lavoir</h2>
+        <p class="large" data-i18n="radioIntro">
+          Écoutez Radio Lavoir, avec ses flashs d’information et ses musiques du début du XXe siècle.
+        </p>
+<div class="radio-player">
+          <iframe frameborder="0" width="280" height="215" src="https://radiolavoir.airtime.pro/embed/player?stream=auto&title=Now%20Playing" title="Radio Lavoir — lecteur audio"></iframe>
+        </div>
+      </div>
+    </section>
     <section id="affiche" class="section poster-section">
       <div class="container">
         <h2 data-i18n="posterTitle">Affiche du lancement</h2>
@@ -53,21 +59,652 @@
     </section>
 
 
-    <section id="radio-lavoir" class="section radio-section">
+    
+
+
+
+    <section id="grand-jeu-patience" class="section patience-section">
       <div class="container">
-        <h2 data-i18n="radioTitle">Radio Lavoir</h2>
-        <p class="large" data-i18n="radioIntro">
-          Écoutez Radio Lavoir, avec ses flashs d’information et ses musiques du début du XXe siècle.
+        <h2 data-i18n="patienceTitle">Le Grand jeu de patience de Mont Roland</h2>
+        <p class="large" data-i18n="patienceIntro">
+          Chaque carte est d’abord tournée en verso. Cliquez sur une carte pour la retourner côté recto, puis cliquez de nouveau si vous souhaitez la remettre en verso.
         </p>
-        <p>
-          <a class="button primary listen-now-button" href="https://radiolavoir.airtime.pro" target="_blank" rel="noopener" data-i18n="listenNowButton">Écouter maintenant</a>
+        <p class="small patience-note" data-i18n="patienceNote">
+          Disposition initiale : une seule carte est visible en recto, conformément à la grille actuelle 0 / 1.
         </p>
-        <div class="radio-player">
-          <iframe frameborder="0" width="280" height="215" src="https://radiolavoir.airtime.pro/embed/player?stream=auto&title=Now%20Playing" title="Radio Lavoir — lecteur audio"></iframe>
+        <p><button class="button primary" id="resetPatienceButton" type="button" data-i18n="patienceReset">Réinitialiser la grille</button></p>
+
+        <div class="patience-grid-wrapper">
+          <div class="patience-header">
+            <div class="house-label header-label" data-i18n="patienceHouseColumn">Maison</div>
+            <div class="house-cards rank-row">
+              <div class="rank-label">As</div><div class="rank-label">2</div><div class="rank-label">3</div><div class="rank-label">4</div><div class="rank-label">5</div><div class="rank-label">6</div><div class="rank-label">7</div><div class="rank-label">8</div><div class="rank-label">9</div><div class="rank-label">10</div><div class="rank-label">V</div><div class="rank-label">D</div><div class="rank-label">R</div>
+            </div>
+          </div>
+          
+        <div class="patience-row">
+          <div class="house-label">Maison de Jouhe</div>
+          <div class="house-cards">
+            <button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00001.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00001.jpeg"
+                data-front-label="Recto — Maison de Jouhe — As"
+                data-back-label="Verso — Maison de Jouhe — As"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe As">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00001.jpeg" alt="Maison de Jouhe As" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>As<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00002.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00002.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 2"
+                data-back-label="Verso — Maison de Jouhe — 2"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 2">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00002.jpeg" alt="Maison de Jouhe 2" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>2<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00003.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00003.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 3"
+                data-back-label="Verso — Maison de Jouhe — 3"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 3">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00003.jpeg" alt="Maison de Jouhe 3" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>3<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00004.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00004.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 4"
+                data-back-label="Verso — Maison de Jouhe — 4"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 4">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00004.jpeg" alt="Maison de Jouhe 4" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>4<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00005.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00005.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 5"
+                data-back-label="Verso — Maison de Jouhe — 5"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 5">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00005.jpeg" alt="Maison de Jouhe 5" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>5<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00006.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00006.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 6"
+                data-back-label="Verso — Maison de Jouhe — 6"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 6">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00006.jpeg" alt="Maison de Jouhe 6" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>6<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00007.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00007.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 7"
+                data-back-label="Verso — Maison de Jouhe — 7"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 7">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00007.jpeg" alt="Maison de Jouhe 7" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>7<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00008.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00008.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 8"
+                data-back-label="Verso — Maison de Jouhe — 8"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 8">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00008.jpeg" alt="Maison de Jouhe 8" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>8<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00009.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00009.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 9"
+                data-back-label="Verso — Maison de Jouhe — 9"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 9">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00009.jpeg" alt="Maison de Jouhe 9" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>9<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00010.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00010.jpeg"
+                data-front-label="Recto — Maison de Jouhe — 10"
+                data-back-label="Verso — Maison de Jouhe — 10"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe 10">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00010.jpeg" alt="Maison de Jouhe 10" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>10<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00011.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00011.jpeg"
+                data-front-label="Recto — Maison de Jouhe — V"
+                data-back-label="Verso — Maison de Jouhe — V"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe V">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00011.jpeg" alt="Maison de Jouhe V" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>V<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00012.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00012.jpeg"
+                data-front-label="Recto — Maison de Jouhe — D"
+                data-back-label="Verso — Maison de Jouhe — D"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe D">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00012.jpeg" alt="Maison de Jouhe D" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>D<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-JOU-00013.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-JOU-00013.jpeg"
+                data-front-label="Recto — Maison de Jouhe — R"
+                data-back-label="Verso — Maison de Jouhe — R"
+                aria-pressed="false"
+                aria-label="Maison de Jouhe R">
+                <img src="assets/cartes/MR-JEU-VER-JOU-00013.jpeg" alt="Maison de Jouhe R" loading="lazy">
+                <span class="missing-label">Maison de Jouhe<br>R<br>verso</span>
+            </button>
+          </div>
+        </div>
+    
+        <div class="patience-row">
+          <div class="house-label">Maison de Monnières</div>
+          <div class="house-cards">
+            <button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00001.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00001.jpeg"
+                data-front-label="Recto — Maison de Monnières — As"
+                data-back-label="Verso — Maison de Monnières — As"
+                aria-pressed="false"
+                aria-label="Maison de Monnières As">
+                <img src="assets/cartes/MR-JEU-VER-MON-00001.jpeg" alt="Maison de Monnières As" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>As<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00002.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00002.jpeg"
+                data-front-label="Recto — Maison de Monnières — 2"
+                data-back-label="Verso — Maison de Monnières — 2"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 2">
+                <img src="assets/cartes/MR-JEU-VER-MON-00002.jpeg" alt="Maison de Monnières 2" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>2<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00003.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00003.jpeg"
+                data-front-label="Recto — Maison de Monnières — 3"
+                data-back-label="Verso — Maison de Monnières — 3"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 3">
+                <img src="assets/cartes/MR-JEU-VER-MON-00003.jpeg" alt="Maison de Monnières 3" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>3<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00004.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00004.jpeg"
+                data-front-label="Recto — Maison de Monnières — 4"
+                data-back-label="Verso — Maison de Monnières — 4"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 4">
+                <img src="assets/cartes/MR-JEU-VER-MON-00004.jpeg" alt="Maison de Monnières 4" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>4<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00005.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00005.jpeg"
+                data-front-label="Recto — Maison de Monnières — 5"
+                data-back-label="Verso — Maison de Monnières — 5"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 5">
+                <img src="assets/cartes/MR-JEU-VER-MON-00005.jpeg" alt="Maison de Monnières 5" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>5<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00006.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00006.jpeg"
+                data-front-label="Recto — Maison de Monnières — 6"
+                data-back-label="Verso — Maison de Monnières — 6"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 6">
+                <img src="assets/cartes/MR-JEU-VER-MON-00006.jpeg" alt="Maison de Monnières 6" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>6<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00007.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00007.jpeg"
+                data-front-label="Recto — Maison de Monnières — 7"
+                data-back-label="Verso — Maison de Monnières — 7"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 7">
+                <img src="assets/cartes/MR-JEU-VER-MON-00007.jpeg" alt="Maison de Monnières 7" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>7<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00008.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00008.jpeg"
+                data-front-label="Recto — Maison de Monnières — 8"
+                data-back-label="Verso — Maison de Monnières — 8"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 8">
+                <img src="assets/cartes/MR-JEU-VER-MON-00008.jpeg" alt="Maison de Monnières 8" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>8<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00009.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00009.jpeg"
+                data-front-label="Recto — Maison de Monnières — 9"
+                data-back-label="Verso — Maison de Monnières — 9"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 9">
+                <img src="assets/cartes/MR-JEU-VER-MON-00009.jpeg" alt="Maison de Monnières 9" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>9<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00010.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00010.jpeg"
+                data-front-label="Recto — Maison de Monnières — 10"
+                data-back-label="Verso — Maison de Monnières — 10"
+                aria-pressed="false"
+                aria-label="Maison de Monnières 10">
+                <img src="assets/cartes/MR-JEU-VER-MON-00010.jpeg" alt="Maison de Monnières 10" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>10<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00011.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00011.jpeg"
+                data-front-label="Recto — Maison de Monnières — V"
+                data-back-label="Verso — Maison de Monnières — V"
+                aria-pressed="false"
+                aria-label="Maison de Monnières V">
+                <img src="assets/cartes/MR-JEU-VER-MON-00011.jpeg" alt="Maison de Monnières V" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>V<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00012.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00012.jpeg"
+                data-front-label="Recto — Maison de Monnières — D"
+                data-back-label="Verso — Maison de Monnières — D"
+                aria-pressed="false"
+                aria-label="Maison de Monnières D">
+                <img src="assets/cartes/MR-JEU-VER-MON-00012.jpeg" alt="Maison de Monnières D" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>D<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-MON-00013.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-MON-00013.jpeg"
+                data-front-label="Recto — Maison de Monnières — R"
+                data-back-label="Verso — Maison de Monnières — R"
+                aria-pressed="false"
+                aria-label="Maison de Monnières R">
+                <img src="assets/cartes/MR-JEU-VER-MON-00013.jpeg" alt="Maison de Monnières R" loading="lazy">
+                <span class="missing-label">Maison de Monnières<br>R<br>verso</span>
+            </button>
+          </div>
+        </div>
+    
+        <div class="patience-row">
+          <div class="house-label">Maison de Sampans</div>
+          <div class="house-cards">
+            <button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00001.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00001.jpeg"
+                data-front-label="Recto — Maison de Sampans — As"
+                data-back-label="Verso — Maison de Sampans — As"
+                aria-pressed="false"
+                aria-label="Maison de Sampans As">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00001.jpeg" alt="Maison de Sampans As" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>As<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00002.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00002.jpeg"
+                data-front-label="Recto — Maison de Sampans — 2"
+                data-back-label="Verso — Maison de Sampans — 2"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 2">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00002.jpeg" alt="Maison de Sampans 2" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>2<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00003.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00003.jpeg"
+                data-front-label="Recto — Maison de Sampans — 3"
+                data-back-label="Verso — Maison de Sampans — 3"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 3">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00003.jpeg" alt="Maison de Sampans 3" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>3<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00004.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00004.jpeg"
+                data-front-label="Recto — Maison de Sampans — 4"
+                data-back-label="Verso — Maison de Sampans — 4"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 4">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00004.jpeg" alt="Maison de Sampans 4" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>4<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00005.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00005.jpeg"
+                data-front-label="Recto — Maison de Sampans — 5"
+                data-back-label="Verso — Maison de Sampans — 5"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 5">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00005.jpeg" alt="Maison de Sampans 5" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>5<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00006.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00006.jpeg"
+                data-front-label="Recto — Maison de Sampans — 6"
+                data-back-label="Verso — Maison de Sampans — 6"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 6">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00006.jpeg" alt="Maison de Sampans 6" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>6<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00007.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00007.jpeg"
+                data-front-label="Recto — Maison de Sampans — 7"
+                data-back-label="Verso — Maison de Sampans — 7"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 7">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00007.jpeg" alt="Maison de Sampans 7" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>7<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00008.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00008.jpeg"
+                data-front-label="Recto — Maison de Sampans — 8"
+                data-back-label="Verso — Maison de Sampans — 8"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 8">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00008.jpeg" alt="Maison de Sampans 8" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>8<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00009.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00009.jpeg"
+                data-front-label="Recto — Maison de Sampans — 9"
+                data-back-label="Verso — Maison de Sampans — 9"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 9">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00009.jpeg" alt="Maison de Sampans 9" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>9<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00010.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00010.jpeg"
+                data-front-label="Recto — Maison de Sampans — 10"
+                data-back-label="Verso — Maison de Sampans — 10"
+                aria-pressed="false"
+                aria-label="Maison de Sampans 10">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00010.jpeg" alt="Maison de Sampans 10" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>10<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00011.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00011.jpeg"
+                data-front-label="Recto — Maison de Sampans — V"
+                data-back-label="Verso — Maison de Sampans — V"
+                aria-pressed="false"
+                aria-label="Maison de Sampans V">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00011.jpeg" alt="Maison de Sampans V" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>V<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00012.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00012.jpeg"
+                data-front-label="Recto — Maison de Sampans — D"
+                data-back-label="Verso — Maison de Sampans — D"
+                aria-pressed="false"
+                aria-label="Maison de Sampans D">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00012.jpeg" alt="Maison de Sampans D" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>D<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-SAM-00013.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-SAM-00013.jpeg"
+                data-front-label="Recto — Maison de Sampans — R"
+                data-back-label="Verso — Maison de Sampans — R"
+                aria-pressed="false"
+                aria-label="Maison de Sampans R">
+                <img src="assets/cartes/MR-JEU-VER-SAM-00013.jpeg" alt="Maison de Sampans R" loading="lazy">
+                <span class="missing-label">Maison de Sampans<br>R<br>verso</span>
+            </button>
+          </div>
+        </div>
+    
+        <div class="patience-row">
+          <div class="house-label">Maison d’Authume</div>
+          <div class="house-cards">
+            <button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00001.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00001.jpeg"
+                data-front-label="Recto — Maison d’Authume — As"
+                data-back-label="Verso — Maison d’Authume — As"
+                aria-pressed="false"
+                aria-label="Maison d’Authume As">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00001.jpeg" alt="Maison d’Authume As" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>As<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00002.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00002.jpeg"
+                data-front-label="Recto — Maison d’Authume — 2"
+                data-back-label="Verso — Maison d’Authume — 2"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 2">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00002.jpeg" alt="Maison d’Authume 2" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>2<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00003.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00003.jpeg"
+                data-front-label="Recto — Maison d’Authume — 3"
+                data-back-label="Verso — Maison d’Authume — 3"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 3">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00003.jpeg" alt="Maison d’Authume 3" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>3<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00004.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00004.jpeg"
+                data-front-label="Recto — Maison d’Authume — 4"
+                data-back-label="Verso — Maison d’Authume — 4"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 4">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00004.jpeg" alt="Maison d’Authume 4" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>4<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00005.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00005.jpeg"
+                data-front-label="Recto — Maison d’Authume — 5"
+                data-back-label="Verso — Maison d’Authume — 5"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 5">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00005.jpeg" alt="Maison d’Authume 5" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>5<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00006.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00006.jpeg"
+                data-front-label="Recto — Maison d’Authume — 6"
+                data-back-label="Verso — Maison d’Authume — 6"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 6">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00006.jpeg" alt="Maison d’Authume 6" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>6<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00007.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00007.jpeg"
+                data-front-label="Recto — Maison d’Authume — 7"
+                data-back-label="Verso — Maison d’Authume — 7"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 7">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00007.jpeg" alt="Maison d’Authume 7" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>7<br>verso</span>
+            </button><button class="patience-card is-front" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00008.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00008.jpeg"
+                data-front-label="Recto — Maison d’Authume — 8"
+                data-back-label="Verso — Maison d’Authume — 8"
+                aria-pressed="true"
+                aria-label="Maison d’Authume 8">
+                <img src="assets/cartes/MR-JEU-REC-AUT-00008.jpeg" alt="Maison d’Authume 8" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>8<br>recto</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00009.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00009.jpeg"
+                data-front-label="Recto — Maison d’Authume — 9"
+                data-back-label="Verso — Maison d’Authume — 9"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 9">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00009.jpeg" alt="Maison d’Authume 9" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>9<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00010.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00010.jpeg"
+                data-front-label="Recto — Maison d’Authume — 10"
+                data-back-label="Verso — Maison d’Authume — 10"
+                aria-pressed="false"
+                aria-label="Maison d’Authume 10">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00010.jpeg" alt="Maison d’Authume 10" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>10<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00011.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00011.jpeg"
+                data-front-label="Recto — Maison d’Authume — V"
+                data-back-label="Verso — Maison d’Authume — V"
+                aria-pressed="false"
+                aria-label="Maison d’Authume V">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00011.jpeg" alt="Maison d’Authume V" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>V<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00012.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00012.jpeg"
+                data-front-label="Recto — Maison d’Authume — D"
+                data-back-label="Verso — Maison d’Authume — D"
+                aria-pressed="false"
+                aria-label="Maison d’Authume D">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00012.jpeg" alt="Maison d’Authume D" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>D<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-AUT-00013.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-AUT-00013.jpeg"
+                data-front-label="Recto — Maison d’Authume — R"
+                data-back-label="Verso — Maison d’Authume — R"
+                aria-pressed="false"
+                aria-label="Maison d’Authume R">
+                <img src="assets/cartes/MR-JEU-VER-AUT-00013.jpeg" alt="Maison d’Authume R" loading="lazy">
+                <span class="missing-label">Maison d’Authume<br>R<br>verso</span>
+            </button>
+          </div>
+        </div>
+    
+        <div class="patience-row">
+          <div class="house-label">Maison de Dole — Grand Dole</div>
+          <div class="house-cards">
+            <button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00001.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00001.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — As"
+                data-back-label="Verso — Maison de Dole — Grand Dole — As"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole As">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00001.jpeg" alt="Maison de Dole — Grand Dole As" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>As<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00002.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00002.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 2"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 2"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 2">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00002.jpeg" alt="Maison de Dole — Grand Dole 2" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>2<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00003.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00003.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 3"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 3"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 3">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00003.jpeg" alt="Maison de Dole — Grand Dole 3" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>3<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00004.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00004.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 4"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 4"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 4">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00004.jpeg" alt="Maison de Dole — Grand Dole 4" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>4<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00005.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00005.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 5"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 5"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 5">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00005.jpeg" alt="Maison de Dole — Grand Dole 5" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>5<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00006.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00006.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 6"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 6"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 6">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00006.jpeg" alt="Maison de Dole — Grand Dole 6" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>6<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00007.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00007.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 7"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 7"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 7">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00007.jpeg" alt="Maison de Dole — Grand Dole 7" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>7<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00008.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00008.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 8"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 8"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 8">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00008.jpeg" alt="Maison de Dole — Grand Dole 8" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>8<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00009.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00009.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 9"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 9"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 9">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00009.jpeg" alt="Maison de Dole — Grand Dole 9" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>9<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00010.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00010.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — 10"
+                data-back-label="Verso — Maison de Dole — Grand Dole — 10"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole 10">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00010.jpeg" alt="Maison de Dole — Grand Dole 10" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>10<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00011.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00011.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — V"
+                data-back-label="Verso — Maison de Dole — Grand Dole — V"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole V">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00011.jpeg" alt="Maison de Dole — Grand Dole V" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>V<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00012.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00012.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — D"
+                data-back-label="Verso — Maison de Dole — Grand Dole — D"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole D">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00012.jpeg" alt="Maison de Dole — Grand Dole D" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>D<br>verso</span>
+            </button><button class="patience-card is-back" type="button"
+                data-front="assets/cartes/MR-JEU-REC-DOL-00013.jpeg"
+                data-back="assets/cartes/MR-JEU-VER-DOL-00013.jpeg"
+                data-front-label="Recto — Maison de Dole — Grand Dole — R"
+                data-back-label="Verso — Maison de Dole — Grand Dole — R"
+                aria-pressed="false"
+                aria-label="Maison de Dole — Grand Dole R">
+                <img src="assets/cartes/MR-JEU-VER-DOL-00013.jpeg" alt="Maison de Dole — Grand Dole R" loading="lazy">
+                <span class="missing-label">Maison de Dole — Grand Dole<br>R<br>verso</span>
+            </button>
+          </div>
+        </div>
+    
         </div>
       </div>
     </section>
-
 
     <section id="lancement" class="section news-section">
       <div class="container">

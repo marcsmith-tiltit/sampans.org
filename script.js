@@ -58,7 +58,7 @@ const translations = {
     "specialOrder": "Pour une commande spéciale, écrivez directement à",
     "radioButton": "Écouter maintenant",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Écoutez Radio Lavoir : mieux vaut l’avoir, même sans la voir. Le lecteur est aussi disponible ci-dessous.",
+    "radioIntro": "Écoutez Radio Lavoir directement depuis le site, avec ses flashs d’information et ses musiques du début du XXe siècle.",
     "listenNowButton": "Écouter maintenant",
     "newsTitle": "Le lancement du journal",
     "newsIntro": "Le P’tiot Sampantais n’a pas été distribué sur le marché des producteurs comme prévu, celui-ci ayant été annulé en raison de la canicule. Le lancement s’est finalement fait en petit comité au Mont-Roland.",
@@ -70,7 +70,12 @@ const translations = {
     "newsBelleEpoqueText": "Cette édition exceptionnelle reprend le format d’époque et se présente comme un journal daté du 17 novembre 1902. Les textes, les polices et les illustrations ont été conçus dans l’esprit de la Belle Époque.",
     "memoryTitle": "La mémoire d’un village",
     "memoryText": "Le journal contient des articles sur l’histoire locale de Sampans, mais aussi des brèves sur la région, la France et le monde de 1902. Il donne une visibilité nouvelle à l’histoire locale et rappelle que la mémoire d’un village ne se limite pas aux monuments.",
-    "futureText": "Cette édition spéciale Belle Époque pourrait avoir une suite, peut-être le jour de la Pentecôte 1867. L’idée forte demeure : un village ne peut pas se résumer à un seul numéro."
+    "futureText": "Cette édition spéciale Belle Époque pourrait avoir une suite, peut-être le jour de la Pentecôte 1867. L’idée forte demeure : un village ne peut pas se résumer à un seul numéro.",
+    "patienceTitle": "Le Grand jeu de patience de Mont Roland",
+    "patienceIntro": "Chaque carte est d’abord tournée en verso. Cliquez sur une carte pour la retourner côté recto, puis cliquez de nouveau si vous souhaitez la remettre en verso.",
+    "patienceNote": "Disposition initiale : une seule carte est visible en recto, conformément à la grille actuelle 0 / 1.",
+    "patienceReset": "Réinitialiser la grille",
+    "patienceHouseColumn": "Maison"
   },
   "en": {
     "languageName": "English",
@@ -131,7 +136,7 @@ const translations = {
     "specialOrder": "For a special order, please write directly to",
     "radioButton": "Listen now",
     "radioTitle": "Radio Lavoir",
-    "radioIntro": "Listen to Radio Lavoir. The embedded player is also available below.",
+    "radioIntro": "Listen to Radio Lavoir directly from the site, with news flashes and music from the early twentieth century.",
     "listenNowButton": "Listen now",
     "newsTitle": "The newspaper launch",
     "newsIntro": "Le P’tiot Sampantais was not distributed at the producers’ market as planned, as the event was cancelled because of the heatwave. The launch finally took place in a small gathering at Mont-Roland.",
@@ -143,306 +148,20 @@ const translations = {
     "newsBelleEpoqueText": "This exceptional edition uses a period format and is presented as a newspaper dated 17 November 1902. The texts, fonts and illustrations were designed in the spirit of the Belle Époque.",
     "memoryTitle": "The memory of a village",
     "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
-    "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue."
-  },
-  "de": {
-    "languageName": "Deutsch",
-    "kicker": "Sampans • Jura • France",
-    "subtitle": "A small local newspaper inspired by Sampans in 1902.",
-    "orderButton": "Ein Exemplar bestellen",
-    "posterButton": "Plakat ansehen",
-    "languageIntro": "Sprache wählen",
-    "posterTitle": "Launch poster",
-    "posterText": "The producers’ market on Saturday 27 June was cancelled because of the heatwave. The newspaper was finally launched in a small gathering at Mont-Roland.",
-    "posterLarge": "Open the poster in large format",
-    "projectTitle": "A newspaper from the past",
-    "projectP1": "Le P’tiot Sampantais is a local newspaper-style publication, imagined as if it had appeared in Sampans at the beginning of the twentieth century. It includes village stories, archives, portraits, glimpses of everyday life and a few items of world news.",
-    "projectP2": "The project is for residents, families, curious readers, lovers of local history, and also children.",
-    "launchTitle": "Launch at Mont-Roland",
-    "launchDate": "Saturday 27 June 2026",
-    "launchPlace": "Mont-Roland, small gathering",
-    "launchProgramme": "After the cancellation of the producers’ market because of the heatwave, the launch took place simply, with a birthday cake and Crémant du Jura to wish Jacky a happy birthday.",
-    "orderTitle": "Order the newspaper",
-    "orderIntro": "A simple formula is proposed: €6 per copy, including €5 for the newspaper and a €1 donation to the École des Chiens Guides de Lyon Centre-Est in Misérieux.",
-    "onsiteTitle": "At the event",
-    "onsiteText": "One newspaper included, with €1 donated to the association.",
-    "franceShippingTitle": "Delivery in France",
-    "franceShippingText": "Includes the newspaper, donation, envelope and tracked letter postage.",
-    "worldShippingTitle": "Europe and the rest of the world",
-    "worldShippingText": "Includes the newspaper, donation, envelope and international postage.",
-    "donTitle": "Donations and postage",
-    "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
-    "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
-    "postalFormTitle": "Formular für den Postversand",
-    "postalFormIntro": "Füllen Sie dieses Formular aus, um Ihre Anfrage automatisch an contact@sampans.org zu senden. Danach werden Sie zur Zahlungsseite weitergeleitet.",
-    "fullNameLabel": "Full name *",
-    "emailLabel": "Email address *",
-    "postalAddressLabel": "Full postal address *",
-    "postalCodeLabel": "Postcode / ZIP code *",
-    "cityLabel": "Town / City *",
-    "countryLabel": "Country *",
-    "copiesLabel": "Number of copies requested *",
-    "shippingModeLabel": "Chosen shipping method *",
-    "chooseOption": "Choose…",
-    "shippingFranceOption": "France — €12 per copy",
-    "shippingEuropeOption": "Europe — €18 per copy",
-    "shippingWorldOption": "Rest of the world — €18 per copy",
-    "phoneLabel": "Telefon, optional",
-    "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
-    "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
-    "messageLabel": "Besondere Nachricht, optional",
-    "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "Die übermittelten Informationen werden nur zur Vorbereitung des Postversands der Zeitung verwendet.",
-    "formSubmitButton": "Send order request",
-    "paymentComing": "Nach dem Absenden des Formulars werden Sie zur Zahlungsseite weitergeleitet.",
-    "paymentButton": "Zur Zahlungsseite",
-    "aboutTitle": "About",
-    "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:",
-    "priceTitle": "Calculated price",
-    "priceHelp": "Der Preis wird automatisch mit geschätzten Zahlungsgebühren berechnet.",
-    "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Jetzt hören",
-    "radioTitle": "Radio Lavoir",
-    "radioIntro": "Hören Sie Radio Lavoir. Der Player ist auch unten verfügbar.",
-    "listenNowButton": "Jetzt hören",
-    "newsTitle": "The newspaper launch",
-    "newsIntro": "Le P’tiot Sampantais was not distributed at the producers’ market as planned, as the event was cancelled because of the heatwave. The launch finally took place in a small gathering at Mont-Roland.",
-    "newsWarmTitle": "A simple and warm launch",
-    "newsWarmText": "The occasion also made it possible to wish Jacky a happy birthday, with a birthday cake and Crémant du Jura. The newspaper was very warmly received by those present.",
-    "newsPressTitle": "An article in Le Progrès",
-    "newsPressText": "Patrice Genreau, correspondent for Le Progrès, wrote an article about the project. He described Le P’tiot Sampantais as a “popular newspaper”, curious, tender, mischievous and accessible to all.",
-    "newsBelleEpoqueTitle": "A Belle Époque edition",
-    "newsBelleEpoqueText": "This exceptional edition uses a period format and is presented as a newspaper dated 17 November 1902. The texts, fonts and illustrations were designed in the spirit of the Belle Époque.",
-    "memoryTitle": "The memory of a village",
-    "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
-    "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue."
-  },
-  "sr": {
-    "languageName": "Српски",
-    "kicker": "Sampans • Jura • France",
-    "subtitle": "A small local newspaper inspired by Sampans in 1902.",
-    "orderButton": "Наручити примерак",
-    "posterButton": "Погледати плакат",
-    "languageIntro": "Изаберите језик",
-    "posterTitle": "Launch poster",
-    "posterText": "The producers’ market on Saturday 27 June was cancelled because of the heatwave. The newspaper was finally launched in a small gathering at Mont-Roland.",
-    "posterLarge": "Open the poster in large format",
-    "projectTitle": "A newspaper from the past",
-    "projectP1": "Le P’tiot Sampantais is a local newspaper-style publication, imagined as if it had appeared in Sampans at the beginning of the twentieth century. It includes village stories, archives, portraits, glimpses of everyday life and a few items of world news.",
-    "projectP2": "The project is for residents, families, curious readers, lovers of local history, and also children.",
-    "launchTitle": "Launch at Mont-Roland",
-    "launchDate": "Saturday 27 June 2026",
-    "launchPlace": "Mont-Roland, small gathering",
-    "launchProgramme": "After the cancellation of the producers’ market because of the heatwave, the launch took place simply, with a birthday cake and Crémant du Jura to wish Jacky a happy birthday.",
-    "orderTitle": "Order the newspaper",
-    "orderIntro": "A simple formula is proposed: €6 per copy, including €5 for the newspaper and a €1 donation to the École des Chiens Guides de Lyon Centre-Est in Misérieux.",
-    "onsiteTitle": "At the event",
-    "onsiteText": "One newspaper included, with €1 donated to the association.",
-    "franceShippingTitle": "Delivery in France",
-    "franceShippingText": "Includes the newspaper, donation, envelope and tracked letter postage.",
-    "worldShippingTitle": "Europe and the rest of the world",
-    "worldShippingText": "Includes the newspaper, donation, envelope and international postage.",
-    "donTitle": "Donations and postage",
-    "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
-    "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
-    "postalFormTitle": "Образац за слање поштом",
-    "postalFormIntro": "Попуните овај образац да бисте аутоматски послали захтев на contact@sampans.org. Затим ћете бити преусмерени на страницу за плаћање.",
-    "fullNameLabel": "Full name *",
-    "emailLabel": "Email address *",
-    "postalAddressLabel": "Full postal address *",
-    "postalCodeLabel": "Postcode / ZIP code *",
-    "cityLabel": "Town / City *",
-    "countryLabel": "Country *",
-    "copiesLabel": "Number of copies requested *",
-    "shippingModeLabel": "Chosen shipping method *",
-    "chooseOption": "Choose…",
-    "shippingFranceOption": "France — €12 per copy",
-    "shippingEuropeOption": "Europe — €18 per copy",
-    "shippingWorldOption": "Rest of the world — €18 per copy",
-    "phoneLabel": "Phone number, optional",
-    "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
-    "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
-    "messageLabel": "Special message, optional",
-    "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "Послати подаци користе се само за припрему поштанског слања новина.",
-    "formSubmitButton": "Send order request",
-    "paymentComing": "Након слања обрасца бићете преусмерени на страницу за плаћање.",
-    "paymentButton": "Иди на страницу за плаћање",
-    "aboutTitle": "About",
-    "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:",
-    "priceTitle": "Calculated price",
-    "priceHelp": "Цена се аутоматски израчунава са процењеним трошковима плаћања.",
-    "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Слушати сада",
-    "radioTitle": "Radio Lavoir",
-    "radioIntro": "Слушајте Radio Lavoir. Плејер је доступан и испод.",
-    "listenNowButton": "Слушати сада",
-    "newsTitle": "The newspaper launch",
-    "newsIntro": "Le P’tiot Sampantais was not distributed at the producers’ market as planned, as the event was cancelled because of the heatwave. The launch finally took place in a small gathering at Mont-Roland.",
-    "newsWarmTitle": "A simple and warm launch",
-    "newsWarmText": "The occasion also made it possible to wish Jacky a happy birthday, with a birthday cake and Crémant du Jura. The newspaper was very warmly received by those present.",
-    "newsPressTitle": "An article in Le Progrès",
-    "newsPressText": "Patrice Genreau, correspondent for Le Progrès, wrote an article about the project. He described Le P’tiot Sampantais as a “popular newspaper”, curious, tender, mischievous and accessible to all.",
-    "newsBelleEpoqueTitle": "A Belle Époque edition",
-    "newsBelleEpoqueText": "This exceptional edition uses a period format and is presented as a newspaper dated 17 November 1902. The texts, fonts and illustrations were designed in the spirit of the Belle Époque.",
-    "memoryTitle": "The memory of a village",
-    "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
-    "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue."
-  },
-  "es": {
-    "languageName": "Español",
-    "kicker": "Sampans • Jura • France",
-    "subtitle": "A small local newspaper inspired by Sampans in 1902.",
-    "orderButton": "Order a copy",
-    "posterButton": "See the poster",
-    "languageIntro": "Choose a language",
-    "posterTitle": "Launch poster",
-    "posterText": "The producers’ market on Saturday 27 June was cancelled because of the heatwave. The newspaper was finally launched in a small gathering at Mont-Roland.",
-    "posterLarge": "Open the poster in large format",
-    "projectTitle": "A newspaper from the past",
-    "projectP1": "Le P’tiot Sampantais is a local newspaper-style publication, imagined as if it had appeared in Sampans at the beginning of the twentieth century. It includes village stories, archives, portraits, glimpses of everyday life and a few items of world news.",
-    "projectP2": "The project is for residents, families, curious readers, lovers of local history, and also children.",
-    "launchTitle": "Launch at Mont-Roland",
-    "launchDate": "Saturday 27 June 2026",
-    "launchPlace": "Mont-Roland, small gathering",
-    "launchProgramme": "After the cancellation of the producers’ market because of the heatwave, the launch took place simply, with a birthday cake and Crémant du Jura to wish Jacky a happy birthday.",
-    "orderTitle": "Order the newspaper",
-    "orderIntro": "A simple formula is proposed: €6 per copy, including €5 for the newspaper and a €1 donation to the École des Chiens Guides de Lyon Centre-Est in Misérieux.",
-    "onsiteTitle": "At the event",
-    "onsiteText": "One newspaper included, with €1 donated to the association.",
-    "franceShippingTitle": "Delivery in France",
-    "franceShippingText": "Includes the newspaper, donation, envelope and tracked letter postage.",
-    "worldShippingTitle": "Europe and the rest of the world",
-    "worldShippingText": "Includes the newspaper, donation, envelope and international postage.",
-    "donTitle": "Donations and postage",
-    "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
-    "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
-    "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Rellene este formulario para enviar automáticamente su solicitud a contact@sampans.org. A continuación será redirigido a la página de pago.",
-    "fullNameLabel": "Full name *",
-    "emailLabel": "Email address *",
-    "postalAddressLabel": "Full postal address *",
-    "postalCodeLabel": "Postcode / ZIP code *",
-    "cityLabel": "Town / City *",
-    "countryLabel": "Country *",
-    "copiesLabel": "Number of copies requested *",
-    "shippingModeLabel": "Chosen shipping method *",
-    "chooseOption": "Choose…",
-    "shippingFranceOption": "France — €12 per copy",
-    "shippingEuropeOption": "Europe — €18 per copy",
-    "shippingWorldOption": "Rest of the world — €18 per copy",
-    "phoneLabel": "Phone number, optional",
-    "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
-    "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
-    "messageLabel": "Special message, optional",
-    "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "La información enviada se utiliza únicamente para preparar el envío postal del periódico. No se usará para otros fines.",
-    "formSubmitButton": "Send order request",
-    "paymentComing": "Después de enviar el formulario, accederá a la página de pago.",
-    "paymentButton": "Ir a la página de pago",
-    "aboutTitle": "About",
-    "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:",
-    "priceTitle": "Calculated price",
-    "priceHelp": "El precio se calcula automáticamente con los gastos de pago estimados.",
-    "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Escuchar ahora",
-    "radioTitle": "Radio Lavoir",
-    "radioIntro": "Escuche Radio Lavoir. El reproductor también está disponible abajo.",
-    "listenNowButton": "Escuchar ahora",
-    "newsTitle": "The newspaper launch",
-    "newsIntro": "Le P’tiot Sampantais was not distributed at the producers’ market as planned, as the event was cancelled because of the heatwave. The launch finally took place in a small gathering at Mont-Roland.",
-    "newsWarmTitle": "A simple and warm launch",
-    "newsWarmText": "The occasion also made it possible to wish Jacky a happy birthday, with a birthday cake and Crémant du Jura. The newspaper was very warmly received by those present.",
-    "newsPressTitle": "An article in Le Progrès",
-    "newsPressText": "Patrice Genreau, correspondent for Le Progrès, wrote an article about the project. He described Le P’tiot Sampantais as a “popular newspaper”, curious, tender, mischievous and accessible to all.",
-    "newsBelleEpoqueTitle": "A Belle Époque edition",
-    "newsBelleEpoqueText": "This exceptional edition uses a period format and is presented as a newspaper dated 17 November 1902. The texts, fonts and illustrations were designed in the spirit of the Belle Époque.",
-    "memoryTitle": "The memory of a village",
-    "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
-    "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue."
-  },
-  "pt": {
-    "languageName": "Português",
-    "kicker": "Sampans • Jura • France",
-    "subtitle": "A small local newspaper inspired by Sampans in 1902.",
-    "orderButton": "Order a copy",
-    "posterButton": "See the poster",
-    "languageIntro": "Choose a language",
-    "posterTitle": "Launch poster",
-    "posterText": "The producers’ market on Saturday 27 June was cancelled because of the heatwave. The newspaper was finally launched in a small gathering at Mont-Roland.",
-    "posterLarge": "Open the poster in large format",
-    "projectTitle": "A newspaper from the past",
-    "projectP1": "Le P’tiot Sampantais is a local newspaper-style publication, imagined as if it had appeared in Sampans at the beginning of the twentieth century. It includes village stories, archives, portraits, glimpses of everyday life and a few items of world news.",
-    "projectP2": "The project is for residents, families, curious readers, lovers of local history, and also children.",
-    "launchTitle": "Launch at Mont-Roland",
-    "launchDate": "Saturday 27 June 2026",
-    "launchPlace": "Mont-Roland, small gathering",
-    "launchProgramme": "After the cancellation of the producers’ market because of the heatwave, the launch took place simply, with a birthday cake and Crémant du Jura to wish Jacky a happy birthday.",
-    "orderTitle": "Order the newspaper",
-    "orderIntro": "A simple formula is proposed: €6 per copy, including €5 for the newspaper and a €1 donation to the École des Chiens Guides de Lyon Centre-Est in Misérieux.",
-    "onsiteTitle": "At the event",
-    "onsiteText": "One newspaper included, with €1 donated to the association.",
-    "franceShippingTitle": "Delivery in France",
-    "franceShippingText": "Includes the newspaper, donation, envelope and tracked letter postage.",
-    "worldShippingTitle": "Europe and the rest of the world",
-    "worldShippingText": "Includes the newspaper, donation, envelope and international postage.",
-    "donTitle": "Donations and postage",
-    "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
-    "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
-    "postalFormTitle": "Postal delivery form",
-    "postalFormIntro": "Preencha este formulário para enviar automaticamente o seu pedido para contact@sampans.org. Em seguida, será encaminhado para a página de pagamento.",
-    "fullNameLabel": "Full name *",
-    "emailLabel": "Email address *",
-    "postalAddressLabel": "Full postal address *",
-    "postalCodeLabel": "Postcode / ZIP code *",
-    "cityLabel": "Town / City *",
-    "countryLabel": "Country *",
-    "copiesLabel": "Number of copies requested *",
-    "shippingModeLabel": "Chosen shipping method *",
-    "chooseOption": "Choose…",
-    "shippingFranceOption": "France — €12 per copy",
-    "shippingEuropeOption": "Europe — €18 per copy",
-    "shippingWorldOption": "Rest of the world — €18 per copy",
-    "phoneLabel": "Phone number, optional",
-    "paymentProofLabel": "Payment proof or confirmation, if paying by bank transfer *",
-    "paymentProofPlaceholder": "Example: transfer made on…, account holder name, reference if any. If you have a screenshot, attach it to the email afterwards.",
-    "messageLabel": "Special message, optional",
-    "messagePlaceholder": "Example: gift, sent to another person, delivery note…",
-    "formNote": "As informações enviadas são usadas apenas para preparar o envio postal do jornal. Não serão usadas para outros fins.",
-    "formSubmitButton": "Send order request",
-    "paymentComing": "Depois de enviar o formulário, será encaminhado para a página de pagamento.",
-    "paymentButton": "Ir para a página de pagamento",
-    "aboutTitle": "About",
-    "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
-    "contact": "Contact:",
-    "priceTitle": "Calculated price",
-    "priceHelp": "O preço é calculado automaticamente com as taxas de pagamento estimadas.",
-    "specialOrder": "For a special order, please write directly to",
-    "radioButton": "Ouvir agora",
-    "radioTitle": "Radio Lavoir",
-    "radioIntro": "Ouça a Radio Lavoir. O leitor também está disponível abaixo.",
-    "listenNowButton": "Ouvir agora",
-    "newsTitle": "The newspaper launch",
-    "newsIntro": "Le P’tiot Sampantais was not distributed at the producers’ market as planned, as the event was cancelled because of the heatwave. The launch finally took place in a small gathering at Mont-Roland.",
-    "newsWarmTitle": "A simple and warm launch",
-    "newsWarmText": "The occasion also made it possible to wish Jacky a happy birthday, with a birthday cake and Crémant du Jura. The newspaper was very warmly received by those present.",
-    "newsPressTitle": "An article in Le Progrès",
-    "newsPressText": "Patrice Genreau, correspondent for Le Progrès, wrote an article about the project. He described Le P’tiot Sampantais as a “popular newspaper”, curious, tender, mischievous and accessible to all.",
-    "newsBelleEpoqueTitle": "A Belle Époque edition",
-    "newsBelleEpoqueText": "This exceptional edition uses a period format and is presented as a newspaper dated 17 November 1902. The texts, fonts and illustrations were designed in the spirit of the Belle Époque.",
-    "memoryTitle": "The memory of a village",
-    "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
-    "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue."
+    "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue.",
+    "patienceTitle": "The Great Patience Game of Mont Roland",
+    "patienceIntro": "Each card starts face down. Click a card to turn it face up, then click again if you want to turn it face down again.",
+    "patienceNote": "Initial layout: only one card is visible face up, according to the current 0 / 1 grid.",
+    "patienceReset": "Reset the grid",
+    "patienceHouseColumn": "House"
   }
 };
+
 
 function setLanguage(lang) {
   const data = translations[lang] || translations.fr;
   document.documentElement.lang = lang;
-  document.documentElement.dir = (lang === "ar") ? "rtl" : "ltr";
+  document.documentElement.dir = "ltr";
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
@@ -500,9 +219,6 @@ function updateCalculatedPrice() {
   }
 
   const subtotal = copies * unitPrice;
-
-  // Frais estimés Mollie pour une carte bancaire particulier FR/EEE :
-  // 0,20 € + 1,2 %. On calcule le total pour conserver le net souhaité.
   const feeFixed = 0.20;
   const feeRate = 0.012;
   const total = Math.ceil(((subtotal + feeFixed) / (1 - feeRate)) * 100) / 100;
@@ -523,10 +239,71 @@ function updateCalculatedPrice() {
   hiddenTotalPrice.value = totalText + " — " + copiesText + " — " + label;
 }
 
+const patienceInitialGrid = [
+  "0000000000000",
+  "0000000000000",
+  "0000000000000",
+  "0000000100000",
+  "0000000000000"
+];
+
+function setCardFace(card, showFront) {
+  const img = card.querySelector("img");
+  const label = card.querySelector(".missing-label");
+  const front = card.dataset.front;
+  const back = card.dataset.back;
+  const frontLabel = card.dataset.frontLabel || "recto";
+  const backLabel = card.dataset.backLabel || "verso";
+
+  if (!img) return;
+
+  img.onerror = () => {
+    card.classList.add("image-missing");
+    if (label) label.innerHTML = showFront ? frontLabel.replaceAll(" — ", "<br>") : backLabel.replaceAll(" — ", "<br>");
+  };
+
+  img.onload = () => {
+    card.classList.remove("image-missing");
+  };
+
+  img.src = showFront ? front : back;
+  card.classList.toggle("is-front", showFront);
+  card.classList.toggle("is-back", !showFront);
+  card.setAttribute("aria-pressed", showFront ? "true" : "false");
+  if (label) label.innerHTML = (showFront ? frontLabel : backLabel).replaceAll(" — ", "<br>");
+}
+
+function resetPatienceGrid() {
+  const rows = document.querySelectorAll(".patience-row");
+  rows.forEach((row, rowIndex) => {
+    const cards = row.querySelectorAll(".patience-card");
+    cards.forEach((card, colIndex) => {
+      const showFront = patienceInitialGrid[rowIndex] && patienceInitialGrid[rowIndex][colIndex] === "1";
+      setCardFace(card, showFront);
+    });
+  });
+}
+
+function setupPatienceGrid() {
+  document.querySelectorAll(".patience-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const showFront = !card.classList.contains("is-front");
+      setCardFace(card, showFront);
+    });
+  });
+
+  const resetButton = document.getElementById("resetPatienceButton");
+  if (resetButton) {
+    resetButton.addEventListener("click", resetPatienceGrid);
+  }
+
+  resetPatienceGrid();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const savedLanguage = localStorage.getItem("sampansLanguage");
   const browserLanguage = (navigator.language || "fr").slice(0, 2);
-  const initialLanguage = savedLanguage || (translations[browserLanguage] ? browserLanguage : "fr");
+  const initialLanguage = savedLanguage && translations[savedLanguage] ? savedLanguage : (translations[browserLanguage] ? browserLanguage : "fr");
 
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.addEventListener("click", () => setLanguage(button.getAttribute("data-lang")));
@@ -542,4 +319,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setLanguage(initialLanguage);
   updateCalculatedPrice();
+  setupPatienceGrid();
 });
