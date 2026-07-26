@@ -55,3 +55,14 @@ Le parcours reste :
 - redirection vers `paiement.html`
 - paiement Mollie
 - retour vers `merci.html`
+
+
+## Mise à jour de la grille initiale
+
+Nouvelle grille 0 / 1 :
+
+0011000000010
+0000000010000
+0000000000000
+0000000100000
+0000000000000
