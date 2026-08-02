@@ -72,8 +72,8 @@ const translations = {
     "memoryText": "Le journal contient des articles sur l’histoire locale de Sampans, mais aussi des brèves sur la région, la France et le monde de 1902. Il donne une visibilité nouvelle à l’histoire locale et rappelle que la mémoire d’un village ne se limite pas aux monuments.",
     "futureText": "Cette édition spéciale Belle Époque pourrait avoir une suite, peut-être le jour de la Pentecôte 1867. L’idée forte demeure : un village ne peut pas se résumer à un seul numéro.",
     "patienceTitle": "Le Grand jeu de patience de Mont Roland",
-    "patienceIntro": "Chaque carte est d’abord tournée en verso. Cliquez sur une carte pour la retourner côté recto, puis cliquez de nouveau si vous souhaitez la remettre en verso.",
-    "patienceNote": "Disposition initiale : une seule carte est visible en recto, conformément à la grille actuelle 0 / 1.",
+    "patienceIntro": "L’état du moment : 27 cartes choisies, 38 cartes à choisir.",
+    "patienceNote": "Pour participer à ce jeu, contactez : contact@sampans.org pour recevoir les articles disponibles.",
     "patienceReset": "Réinitialiser la grille",
     "patienceHouseColumn": "Maison"
   },
@@ -150,8 +150,8 @@ const translations = {
     "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
     "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue.",
     "patienceTitle": "The Great Patience Game of Mont Roland",
-    "patienceIntro": "Each card starts face down. Click a card to turn it face up, then click again if you want to turn it face down again.",
-    "patienceNote": "Initial layout: only one card is visible face up, according to the current 0 / 1 grid.",
+    "patienceIntro": "Current status: 27 cards chosen, 38 cards still available.",
+    "patienceNote": "To take part in this game, contact: contact@sampans.org to receive the available articles.",
     "patienceReset": "Reset the grid",
     "patienceHouseColumn": "House"
   }
@@ -240,10 +240,10 @@ function updateCalculatedPrice() {
 }
 
 const patienceInitialGrid = [
-  "0011000000010",
-  "0000000010000",
-  "1001111101101",
-  "0000000100000",
+  "1011000000010",
+  "0000100010000",
+  "1101111101111",
+  "1001111101000",
   "1001100000000"
 ];
 
@@ -291,13 +291,7 @@ function setupPatienceGrid() {
       setCardFace(card, showFront);
     });
   });
-
-  const resetButton = document.getElementById("resetPatienceButton");
-  if (resetButton) {
-    resetButton.addEventListener("click", resetPatienceGrid);
-  }
-
-  resetPatienceGrid();
+resetPatienceGrid();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
