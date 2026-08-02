@@ -242,9 +242,9 @@ function updateCalculatedPrice() {
 const patienceInitialGrid = [
   "0011000000010",
   "0000000010000",
-  "0000000000000",
+  "1001111101101",
   "0000000100000",
-  "0000000000000"
+  "1001100000000"
 ];
 
 function setCardFace(card, showFront) {
