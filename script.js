@@ -72,7 +72,7 @@ const translations = {
     "memoryText": "Le journal contient des articles sur l’histoire locale de Sampans, mais aussi des brèves sur la région, la France et le monde de 1902. Il donne une visibilité nouvelle à l’histoire locale et rappelle que la mémoire d’un village ne se limite pas aux monuments.",
     "futureText": "Cette édition spéciale Belle Époque pourrait avoir une suite, peut-être le jour de la Pentecôte 1867. L’idée forte demeure : un village ne peut pas se résumer à un seul numéro.",
     "patienceTitle": "Le Grand jeu de patience de Mont Roland",
-    "patienceIntro": "L’état du moment : 27 cartes choisies, 38 cartes à choisir.",
+    "patienceIntro": "L’état du moment : 28 cartes choisies, 37 cartes à choisir.",
     "patienceNote": "Pour participer à ce jeu, contactez : contact@sampans.org pour recevoir les articles disponibles.",
     "patienceReset": "Réinitialiser la grille",
     "patienceHouseColumn": "Maison"
@@ -150,7 +150,7 @@ const translations = {
     "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
     "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue.",
     "patienceTitle": "The Great Patience Game of Mont Roland",
-    "patienceIntro": "Current status: 27 cards chosen, 38 cards still available.",
+    "patienceIntro": "Current status: 28 cards chosen, 37 cards still available.",
     "patienceNote": "To take part in this game, contact: contact@sampans.org to receive the available articles.",
     "patienceReset": "Reset the grid",
     "patienceHouseColumn": "House"
@@ -244,7 +244,7 @@ const patienceInitialGrid = [
   "0000100010000",
   "1101111101111",
   "1001111101000",
-  "1001100000000"
+  "1001100100000"
 ];
 
 function setCardFace(card, showFront) {

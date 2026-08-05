@@ -99,3 +99,19 @@ Modifications :
 - suppression du texte “Disposition initiale…” ;
 - suppression du bouton “Réinitialiser la grille” ;
 - ajout de la phrase de participation : “Pour participer à ce jeu, contactez : contact@sampans.org pour recevoir les articles disponibles.”
+
+
+## Mise à jour de la grille initiale
+
+Nouvelle grille 0 / 1 :
+
+1011000000010
+0000100010000
+1101111101111
+1001111101000
+1001100100000
+
+État du moment :
+- 28 cartes choisies
+- 37 cartes à choisir
+- total : 65 cartes
