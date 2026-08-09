@@ -115,3 +115,19 @@ Nouvelle grille 0 / 1 :
 - 28 cartes choisies
 - 37 cartes à choisir
 - total : 65 cartes
+
+
+## Mise à jour du comportement des cartes
+
+Lorsqu’un visiteur clique sur une carte, celle-ci se retourne brièvement.
+Après une seconde, toute la grille revient automatiquement à sa position initiale.
+
+
+## Mise à jour
+
+- ajout du lien vers la chaîne YouTube : https://www.youtube.com/@LePtiotSampantais ;
+- les cartes du Grand jeu de patience ne se retournent plus au clic ;
+- remplacement de “Sur place” par “À la mairie” dans “Commander le journal” ;
+- suppression du cadre “Dons et frais postaux” ;
+- modification du texte “À propos” avec la mention “Sampans et sa région” ;
+- suppression du bloc “Un lancement simple et chaleureux”.

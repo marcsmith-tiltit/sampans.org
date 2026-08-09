@@ -70,7 +70,7 @@ h1 { font-size: clamp(2.8rem, 8vw, 6rem); margin: 0; line-height: 0.95; }
   border: 1px solid currentColor;
   border-radius: 999px;
   padding: 8px 12px;
-  cursor: pointer;
+  cursor: default;
   background: var(--white);
   color: var(--accent-dark);
 }
@@ -175,7 +175,7 @@ p { font-size: 1.08rem; }
 
 .form-grid textarea { resize: vertical; }
 .form-note { color: var(--muted); font-size: 0.95rem; margin-top: 18px; }
-.form-submit { margin-top: 8px; cursor: pointer; }
+.form-submit { margin-top: 8px; cursor: default; }
 
 a { color: var(--accent-dark); }
 
@@ -391,7 +391,7 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   padding: 0;
   border: 2px solid var(--line);
   background: white;
-  cursor: pointer;
+  cursor: default;
   overflow: hidden;
   aspect-ratio: 400 / 650;
   border-radius: 8px;
@@ -456,4 +456,10 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   .rank-row .rank-label:nth-child(n+6) {
     display: none;
   }
+}
+
+
+/* Les cartes ne sont pas cliquables : elles affichent seulement l’état du moment */
+.patience-card {
+  cursor: default;
 }

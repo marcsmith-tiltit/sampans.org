@@ -18,15 +18,12 @@ const translations = {
     "launchProgramme": "Après l’annulation du marché des producteurs en raison de la canicule, le lancement s’est fait simplement, autour d’un gâteau d’anniversaire et d’un crémant du Jura pour souhaiter un joyeux anniversaire à Jacky.",
     "orderTitle": "Commander le journal",
     "orderIntro": "Une formule simple est proposée : 6 € par journal, dont 5 € pour le journal et 1 € de don pour l’École des Chiens Guides de Lyon Centre-Est, à Misérieux.",
-    "onsiteTitle": "Sur place",
+    "onsiteTitle": "À la mairie",
     "onsiteText": "Journal compris, avec 1 € reversé à l’association.",
     "franceShippingTitle": "Envoi en France",
     "franceShippingText": "Journal, don, enveloppe et affranchissement en Lettre suivie compris.",
     "worldShippingTitle": "Europe et reste du monde",
     "worldShippingText": "Journal, don, enveloppe et affranchissement international compris.",
-    "donTitle": "Dons et frais postaux",
-    "donP1": "Comme les frais postaux sont arrondis, il devrait rester un petit supplément d’environ 1 € par envoi. Ce supplément éventuel pourrait lui aussi être reversé à l’École des Chiens Guides.",
-    "donP2": "L’idée est donc simple : 1 € par journal vendu est reversé à l’association, ainsi que le petit supplément éventuel lié aux envois postaux.",
     "postalFormTitle": "Formulaire pour l’envoi par la poste",
     "postalFormIntro": "Remplissez ce formulaire pour envoyer automatiquement votre demande à contact@sampans.org. Vous serez ensuite redirigé vers la page de paiement.",
     "fullNameLabel": "Nom et prénom *",
@@ -51,7 +48,7 @@ const translations = {
     "paymentComing": "Après l’envoi du formulaire, vous serez dirigé vers la page de paiement.",
     "paymentButton": "Aller à la page de paiement",
     "aboutTitle": "À propos",
-    "aboutP1": "Ce site est une initiative locale indépendante autour de la mémoire de Sampans. Il ne remplace pas les informations officielles de la commune.",
+    "aboutP1": "Ce site est une initiative locale indépendante autour de la mémoire de Sampans et de sa région. Il ne remplace pas les informations officielles de la commune.",
     "contact": "Contact :",
     "priceTitle": "Prix calculé",
     "priceHelp": "Le prix se calcule automatiquement avec les frais de paiement estimés.",
@@ -62,8 +59,6 @@ const translations = {
     "listenNowButton": "Écouter maintenant",
     "newsTitle": "Le lancement du journal",
     "newsIntro": "Le P’tiot Sampantais n’a pas été distribué sur le marché des producteurs comme prévu, celui-ci ayant été annulé en raison de la canicule. Le lancement s’est finalement fait en petit comité au Mont-Roland.",
-    "newsWarmTitle": "Un lancement simple et chaleureux",
-    "newsWarmText": "Ce moment a aussi permis de souhaiter un joyeux anniversaire à Jacky, avec un gâteau d’anniversaire et du crémant du Jura. Le journal a été très bien accueilli par les personnes présentes.",
     "newsPressTitle": "Un article dans Le Progrès",
     "newsPressText": "Patrice Genreau, correspondant du journal Le Progrès, a consacré un article au projet. Il y décrit Le P’tiot Sampantais comme un « journal populaire », au ton curieux, tendre, malicieux et accessible à tous.",
     "newsBelleEpoqueTitle": "Une édition Belle Époque",
@@ -75,7 +70,9 @@ const translations = {
     "patienceIntro": "L’état du moment : 28 cartes choisies, 37 cartes à choisir.",
     "patienceNote": "Pour participer à ce jeu, contactez : contact@sampans.org pour recevoir les articles disponibles.",
     "patienceReset": "Réinitialiser la grille",
-    "patienceHouseColumn": "Maison"
+    "patienceHouseColumn": "Maison",
+    "youtubeButton": "Chaîne YouTube",
+    "youtubeText": "Retrouvez aussi Le P’tiot Sampantais sur YouTube :"
   },
   "en": {
     "languageName": "English",
@@ -96,15 +93,12 @@ const translations = {
     "launchProgramme": "After the cancellation of the producers’ market because of the heatwave, the launch took place simply, with a birthday cake and Crémant du Jura to wish Jacky a happy birthday.",
     "orderTitle": "Order the newspaper",
     "orderIntro": "A simple formula is proposed: €6 per copy, including €5 for the newspaper and a €1 donation to the École des Chiens Guides de Lyon Centre-Est in Misérieux.",
-    "onsiteTitle": "At the event",
+    "onsiteTitle": "At the town hall",
     "onsiteText": "One newspaper included, with €1 donated to the association.",
     "franceShippingTitle": "Delivery in France",
     "franceShippingText": "Includes the newspaper, donation, envelope and tracked letter postage.",
     "worldShippingTitle": "Europe and the rest of the world",
     "worldShippingText": "Includes the newspaper, donation, envelope and international postage.",
-    "donTitle": "Donations and postage",
-    "donP1": "As postal costs are rounded, there should be a small surplus of about €1 per postal order. This possible surplus could also be donated to the guide dog school.",
-    "donP2": "The idea is simple: €1 from each newspaper sold is donated to the association, along with any small surplus linked to postal orders.",
     "postalFormTitle": "Postal delivery form",
     "postalFormIntro": "Fill in this form to send your request automatically to contact@sampans.org. You will then be redirected to the payment page.",
     "fullNameLabel": "Full name *",
@@ -129,7 +123,7 @@ const translations = {
     "paymentComing": "After sending the form, you will be taken to the payment page.",
     "paymentButton": "Go to the payment page",
     "aboutTitle": "About",
-    "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans. It does not replace official information from the municipality.",
+    "aboutP1": "This site is an independent local initiative dedicated to the memory of Sampans and its region. It does not replace official information from the municipality.",
     "contact": "Contact:",
     "priceTitle": "Calculated price",
     "priceHelp": "The price is calculated automatically with estimated payment fees.",
@@ -140,8 +134,6 @@ const translations = {
     "listenNowButton": "Listen now",
     "newsTitle": "The newspaper launch",
     "newsIntro": "Le P’tiot Sampantais was not distributed at the producers’ market as planned, as the event was cancelled because of the heatwave. The launch finally took place in a small gathering at Mont-Roland.",
-    "newsWarmTitle": "A simple and warm launch",
-    "newsWarmText": "The occasion also made it possible to wish Jacky a happy birthday, with a birthday cake and Crémant du Jura. The newspaper was very warmly received by those present.",
     "newsPressTitle": "An article in Le Progrès",
     "newsPressText": "Patrice Genreau, correspondent for Le Progrès, wrote an article about the project. He described Le P’tiot Sampantais as a “popular newspaper”, curious, tender, mischievous and accessible to all.",
     "newsBelleEpoqueTitle": "A Belle Époque edition",
@@ -153,7 +145,9 @@ const translations = {
     "patienceIntro": "Current status: 28 cards chosen, 37 cards still available.",
     "patienceNote": "To take part in this game, contact: contact@sampans.org to receive the available articles.",
     "patienceReset": "Reset the grid",
-    "patienceHouseColumn": "House"
+    "patienceHouseColumn": "House",
+    "youtubeButton": "YouTube channel",
+    "youtubeText": "You can also find Le P’tiot Sampantais on YouTube:"
   }
 };
 
@@ -283,14 +277,7 @@ function resetPatienceGrid() {
     });
   });
 }
-
 function setupPatienceGrid() {
-  document.querySelectorAll(".patience-card").forEach((card) => {
-    card.addEventListener("click", () => {
-      const showFront = !card.classList.contains("is-front");
-      setCardFace(card, showFront);
-    });
-  });
 resetPatienceGrid();
 }
 
