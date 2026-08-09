@@ -57,7 +57,7 @@ const translations = {
     "radioTitle": "Radio Lavoir",
     "radioIntro": "Écoutez Radio Lavoir directement depuis le site, avec ses flashs d’information et ses musiques du début du XXe siècle.",
     "listenNowButton": "Écouter maintenant",
-    "newsTitle": "L’actualité",
+    "newsTitle": "Actualités",
     "newsIntro": "Suivez toute l’actualité du journal ici !",
     "newsPressTitle": "Un article dans Le Progrès",
     "newsPressText": "Patrice Genreau, correspondant du journal Le Progrès, a consacré un article au projet. Il y décrit Le P’tiot Sampantais comme un « journal populaire », au ton curieux, tendre, malicieux et accessible à tous.",
@@ -79,17 +79,19 @@ const translations = {
     "newsLaunchTitle": "2. Lancement officiel le 5 septembre",
     "newsLaunchText": "Le lancement officiel aura lieu lors du marché des producteurs du samedi 5 septembre.",
     "newsShareTitle": "3. Faites connaître le journal",
-    "newsShareText": "Parlez du P’tiot Sampantais autour de vous. Toutes les occasions sont bonnes : promenade, rencontre entre voisins, famille, amis, etc.",
+    "newsShareText": "Inviter chacun à parler du P’tiot Sampantais autour de lui. Toutes les occasions sont bonnes : promenade, rencontre entre voisins, famille, amis, etc.",
     "newsFirstIssueTitle": "4. Le premier numéro est toujours disponible",
     "newsFirstIssueText": "L’édition Belle Époque, façon 1902, continue de circuler. Elle est disponible à la mairie de Sampans et peut aussi être commandée depuis la page Web du journal.",
     "newsNextTitle": "5. La suite : Mont-Roland en 1867 et le Grand Jeu de patience",
-    "newsNextText": "Le prochain journal venu du passé est en préparation et sera consacré au Mont-Roland en 1867. Sa construction s’appuie sur le Grand Jeu de patience de Mont-Roland, organisé autour de cinq « maisons » : Jouhe, Monnières, Sampans, Authume et Dole–Grand Dole.",
+    "newsNextText": "Le prochain journal venu du passé est en préparation et sera consacré au Mont-Roland en 1867. Sa construction s’appuie sur le Grand Jeu de patience de Mont-Roland, organisé autour de cinq « maisons » : Jouhe – Monnières – Sampans – Authume – Dole–Grand Dole.",
     "newsNextText2": "Chaque carte comporte une illustration, un court texte et une question sur un personnage, un lieu, un document ou un événement. Une fois les cartes classées, elles font apparaître l’organisation du futur numéro et facilitent la répartition des sujets entre les contributeurs.",
     "videoTitle": "Participez au défi vidéo du P’tiot Sampantais !",
     "videoIntro": "Le principe : réaliser une courte vidéo, d’environ cinq minutes maximum, avec une touche d’humour, en mettant Le P’tiot Sampantais en scène.",
     "videoIdeas": "On peut imaginer le journal en promenade, dans un lieu insolite, lors d’une rencontre ou dans toute autre situation originale.",
     "videoPlay": "À vous de jouer… et de faire voyager le journal en vidéo !",
-    "videoButton": "Voir la chaîne YouTube du P’tiot Sampantais"
+    "videoButton": "Voir la chaîne YouTube du P’tiot Sampantais",
+    "videoKicker": "le défi vidéo 🎥",
+    "videoChannelLabel": "Chaîne YouTube du P’tiot Sampantais :"
   },
   "en": {
     "languageName": "English",
@@ -171,17 +173,19 @@ const translations = {
     "newsLaunchTitle": "2. Official launch on 5 September",
     "newsLaunchText": "The official launch will take place during the producers’ market on Saturday 5 September.",
     "newsShareTitle": "3. Help spread the word",
-    "newsShareText": "Tell people around you about Le P’tiot Sampantais. Every occasion is a good one: a walk, a chat with neighbours, family, friends, and more.",
+    "newsShareText": "Invite everyone to talk about Le P’tiot Sampantais around them. Every occasion is a good one: a walk, a chat with neighbours, family, friends, and more.",
     "newsFirstIssueTitle": "4. The first issue is still available",
     "newsFirstIssueText": "The Belle Époque edition, in the spirit of 1902, is still circulating. It is available at the Sampans town hall and can also be ordered from the newspaper’s web page.",
     "newsNextTitle": "5. Next: Mont-Roland in 1867 and the Great Patience Game",
-    "newsNextText": "The next newspaper from the past is in preparation and will be devoted to Mont-Roland in 1867. It is being built around the Great Patience Game of Mont-Roland, organised around five “houses”: Jouhe, Monnières, Sampans, Authume and Dole–Grand Dole.",
+    "newsNextText": "The next newspaper from the past is in preparation and will be devoted to Mont-Roland in 1867. It is being built around the Great Patience Game of Mont-Roland, organised around five “houses”: Jouhe – Monnières – Sampans – Authume – Dole–Grand Dole.",
     "newsNextText2": "Each card includes an illustration, a short text and a question about a person, a place, a document or an event. Once the cards are sorted, they reveal the structure of the future issue and help divide topics between contributors.",
     "videoTitle": "Take part in the P’tiot Sampantais video challenge!",
     "videoIntro": "The idea is to make a short video, about five minutes maximum, with a touch of humour, staging Le P’tiot Sampantais.",
     "videoIdeas": "You can imagine the newspaper on a walk, in an unusual place, during a meeting, or in any other original situation.",
     "videoPlay": "Your turn to play… and to make the newspaper travel on video!",
-    "videoButton": "Visit the P’tiot Sampantais YouTube channel"
+    "videoButton": "Visit the P’tiot Sampantais YouTube channel",
+    "videoKicker": "the video challenge 🎥",
+    "videoChannelLabel": "P’tiot Sampantais YouTube channel:"
   }
 };
 

@@ -145,3 +145,16 @@ Cette version remplace les textes de lancement et réorganise la rubrique “Act
 
 Un encadré distinct a été ajouté pour le défi vidéo, avec le lien vers la chaîne YouTube :
 https://www.youtube.com/@LePtiotSampantais
+
+
+## Actualités et défi vidéo
+
+Mise à jour de la rubrique “Actualités” avec 5 points :
+1. Article dans Le Progrès.
+2. Lancement officiel le 5 septembre.
+3. Faites connaître le journal.
+4. Le premier numéro est toujours disponible.
+5. La suite : Mont-Roland en 1867 et le Grand Jeu de patience.
+
+Ajout d’un encadré distinct “le défi vidéo 🎥” avec le lien YouTube :
+https://www.youtube.com/@LePtiotSampantais
