@@ -131,3 +131,17 @@ Après une seconde, toute la grille revient automatiquement à sa position initi
 - suppression du cadre “Dons et frais postaux” ;
 - modification du texte “À propos” avec la mention “Sampans et sa région” ;
 - suppression du bloc “Un lancement simple et chaleureux”.
+
+
+## Mise à jour Actualités et défi vidéo
+
+Cette version remplace les textes de lancement et réorganise la rubrique “Actualités” :
+
+1. Un article dans Le Progrès, avec lien vers l’article.
+2. Lancement officiel le 5 septembre.
+3. Faites connaître le journal.
+4. Le premier numéro est toujours disponible.
+5. La suite : Mont-Roland en 1867 et le Grand Jeu de patience.
+
+Un encadré distinct a été ajouté pour le défi vidéo, avec le lien vers la chaîne YouTube :
+https://www.youtube.com/@LePtiotSampantais
