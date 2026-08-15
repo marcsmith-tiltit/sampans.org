@@ -158,3 +158,19 @@ Mise à jour de la rubrique “Actualités” avec 5 points :
 
 Ajout d’un encadré distinct “le défi vidéo 🎥” avec le lien YouTube :
 https://www.youtube.com/@LePtiotSampantais
+
+
+## Mise à jour de la grille initiale
+
+Nouvelle grille 0 / 1 :
+
+1011000000010
+0000100010000
+1101111101111
+1101111101101
+1001100100000
+
+État du moment :
+- 31 cartes choisies
+- 34 cartes à choisir
+- total : 65 cartes
