@@ -174,3 +174,25 @@ Nouvelle grille 0 / 1 :
 - 31 cartes choisies
 - 34 cartes à choisir
 - total : 65 cartes
+
+
+## Mise à jour de la grille initiale
+
+Nouvelle grille 0 / 1 :
+
+1011000100010
+0000100011000
+1101111101111
+1111111101101
+1001110100000
+
+État du moment :
+- 35 cartes choisies
+- 30 cartes à choisir
+- total : 65 cartes
+
+Ajout :
+- un bloc discret “Accès collaborateurs” a été ajouté ;
+- il contient les liens YouTube de travail :
+  - Jésuites à Mont-Roland
+  - Documents sur le Mont-Roland
