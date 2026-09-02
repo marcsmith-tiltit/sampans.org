@@ -160,39 +160,23 @@ Ajout d’un encadré distinct “le défi vidéo 🎥” avec le lien YouTube :
 https://www.youtube.com/@LePtiotSampantais
 
 
-## Mise à jour de la grille initiale
+## Mise à jour
 
 Nouvelle grille 0 / 1 :
 
-1011000000010
-0000100010000
-1101111101111
-1101111101101
-1001100100000
-
-État du moment :
-- 31 cartes choisies
-- 34 cartes à choisir
-- total : 65 cartes
-
-
-## Mise à jour de la grille initiale
-
-Nouvelle grille 0 / 1 :
-
-1011000100010
+1011000100110
 0000100011000
 1101111101111
 1111111101101
 1001110100000
 
 État du moment :
-- 35 cartes choisies
-- 30 cartes à choisir
+- 36 cartes choisies
+- 29 cartes à choisir
 - total : 65 cartes
 
-Ajout :
-- un bloc discret “Accès collaborateurs” a été ajouté ;
-- il contient les liens YouTube de travail :
-  - Jésuites à Mont-Roland
-  - Documents sur le Mont-Roland
+Autres modifications :
+- remplacement du lien général “Chaîne YouTube” par deux liens : Vidéos et Playlists ;
+- ajout de l’adresse ptiots@sampans.org pour envoyer un petit message aux P’tiots ;
+- Radio Lavoir déplacée après le Grand jeu de patience de Mont Roland ;
+- “Accès collaborateurs” remplacé par “Atelier”.

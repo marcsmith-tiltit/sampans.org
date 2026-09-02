@@ -67,12 +67,12 @@ const translations = {
     "memoryText": "Le journal contient des articles sur l’histoire locale de Sampans, mais aussi des brèves sur la région, la France et le monde de 1902. Il donne une visibilité nouvelle à l’histoire locale et rappelle que la mémoire d’un village ne se limite pas aux monuments.",
     "futureText": "Cette édition spéciale Belle Époque pourrait avoir une suite, peut-être le jour de la Pentecôte 1867. L’idée forte demeure : un village ne peut pas se résumer à un seul numéro.",
     "patienceTitle": "Le Grand jeu de patience de Mont Roland",
-    "patienceIntro": "L’état du moment : 35 cartes choisies, 30 cartes à choisir.",
+    "patienceIntro": "L’état du moment : 36 cartes choisies, 29 cartes à choisir.",
     "patienceNote": "Pour participer à ce jeu, contactez : contact@sampans.org pour recevoir les articles disponibles.",
     "patienceReset": "Réinitialiser la grille",
     "patienceHouseColumn": "Maison",
     "youtubeButton": "Chaîne YouTube",
-    "youtubeText": "Retrouvez aussi Le P’tiot Sampantais sur YouTube :",
+    "youtubeText": "Retrouvez Le P’tiot Sampantais sur YouTube :",
     "newsProgressTitle": "1. Un article dans Le Progrès",
     "newsProgressText": "Patrice Genreau, correspondant du journal Le Progrès, a consacré un article au projet. Il présente Le P’tiot Sampantais comme un « journal populaire », au ton curieux, tendre, malicieux et accessible à tous.",
     "newsProgressLink": "Lire l’article dans Le Progrès",
@@ -92,11 +92,16 @@ const translations = {
     "videoButton": "Voir la chaîne YouTube du P’tiot Sampantais",
     "videoKicker": "le défi vidéo 🎥",
     "videoChannelLabel": "Chaîne YouTube du P’tiot Sampantais :",
-    "workLinksSummary": "Accès collaborateurs",
+    "youtubeVideosButton": "Vidéos",
+    "youtubePlaylistsButton": "Playlists",
+    "videoVideosButton": "Voir les vidéos",
+    "videoPlaylistsButton": "Voir les playlists",
+    "ptiotsMessageText": "Envoyez un petit message aux P’tiots :",
+    "workLinksSummary": "Atelier",
     "workLinksIntro": "Documents de travail pour le prochain journal :",
     "workJesuites": "Jésuites à Mont-Roland",
     "workDocuments": "Documents sur le Mont-Roland",
-    "workHint": "Petits liens de travail, à utiliser seulement si vous savez pourquoi vous êtes ici."
+    "workHint": "Liens de travail pour l’atelier du prochain journal."
   },
   "en": {
     "languageName": "English",
@@ -166,12 +171,12 @@ const translations = {
     "memoryText": "The newspaper contains articles on the local history of Sampans, as well as short items about the region, France and the world in 1902. It gives new visibility to local history and reminds us that the memory of a village is not limited to monuments.",
     "futureText": "This special Belle Époque edition may have a sequel, perhaps on Pentecost 1867. The strong idea remains: a village cannot be summed up in a single issue.",
     "patienceTitle": "The Great Patience Game of Mont Roland",
-    "patienceIntro": "Current status: 35 cards chosen, 30 cards still available.",
+    "patienceIntro": "Current status: 36 cards chosen, 29 cards still available.",
     "patienceNote": "To take part in this game, contact: contact@sampans.org to receive the available articles.",
     "patienceReset": "Reset the grid",
     "patienceHouseColumn": "House",
     "youtubeButton": "YouTube channel",
-    "youtubeText": "You can also find Le P’tiot Sampantais on YouTube:",
+    "youtubeText": "Find Le P’tiot Sampantais on YouTube:",
     "newsProgressTitle": "1. An article in Le Progrès",
     "newsProgressText": "Patrice Genreau, correspondent for Le Progrès, wrote an article about the project. He presents Le P’tiot Sampantais as a “popular newspaper”, curious, tender, mischievous and accessible to all.",
     "newsProgressLink": "Read the article in Le Progrès",
@@ -191,11 +196,16 @@ const translations = {
     "videoButton": "Visit the P’tiot Sampantais YouTube channel",
     "videoKicker": "the video challenge 🎥",
     "videoChannelLabel": "P’tiot Sampantais YouTube channel:",
-    "workLinksSummary": "Contributor access",
+    "youtubeVideosButton": "Videos",
+    "youtubePlaylistsButton": "Playlists",
+    "videoVideosButton": "Watch the videos",
+    "videoPlaylistsButton": "View playlists",
+    "ptiotsMessageText": "Send a little message to the P’tiots:",
+    "workLinksSummary": "Workshop",
     "workLinksIntro": "Working documents for the next issue:",
     "workJesuites": "Jesuits at Mont-Roland",
     "workDocuments": "Documents on Mont-Roland",
-    "workHint": "Small working links, to be used only if you know why you are here."
+    "workHint": "Working links for the next newspaper workshop."
   }
 };
 
@@ -282,7 +292,7 @@ function updateCalculatedPrice() {
 }
 
 const patienceInitialGrid = [
-  "1011000100010",
+  "1011000100110",
   "0000100011000",
   "1101111101111",
   "1111111101101",
