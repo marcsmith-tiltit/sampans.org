@@ -589,3 +589,17 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
 .discreet-work-content {
   padding: 0 14px 14px;
 }
+
+/* Éditorial */
+.editorial-section {
+  text-align: center;
+  background: var(--white);
+}
+
+.editorial-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}

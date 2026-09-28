@@ -180,3 +180,13 @@ Autres modifications :
 - ajout de l’adresse ptiots@sampans.org pour envoyer un petit message aux P’tiots ;
 - Radio Lavoir déplacée après le Grand jeu de patience de Mont Roland ;
 - “Accès collaborateurs” remplacé par “Atelier”.
+
+## Mise à jour
+
+- ajout de la langue chinoise ;
+- ajout d’une section Éditorial avec trois boutons :
+  - français : https://youtu.be/f5jT_kXMYow
+  - anglais : https://youtu.be/ZVXPjvbiw0s
+  - chinois : https://youtu.be/N4IHKYNw-1A
+- suppression de la section “Affiche du lancement” ;
+- suppression de la section “Radio Lavoir”.
