@@ -190,3 +190,14 @@ Autres modifications :
   - chinois : https://youtu.be/N4IHKYNw-1A
 - suppression de la section “Affiche du lancement” ;
 - suppression de la section “Radio Lavoir”.
+
+
+## Mise à jour
+
+- ajout des langues allemande et néerlandaise ;
+- mise à jour du bouton “Vidéos” vers “Dernières vidéos” avec la playlist dédiée ;
+- ajout de l’illustration “P02 La porte du temps Colorisée” ;
+- suppression de l’Atelier ;
+- suppression de Radio Lavoir ;
+- mise à jour complète des Actualités en 7 points ;
+- ajout des explications du Grand jeu de patience.

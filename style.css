@@ -603,3 +603,46 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   flex-wrap: wrap;
   margin-top: 22px;
 }
+
+
+/* Éditorial */
+.editorial-section {
+  text-align: center;
+  background: var(--white);
+}
+
+.editorial-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+/* Illustration La porte du temps */
+.door-section {
+  text-align: center;
+  background: var(--paper);
+}
+
+.door-frame {
+  margin: 28px auto 10px;
+  max-width: 980px;
+  background: white;
+  padding: 12px;
+  border: 2px solid var(--line);
+  box-shadow: 10px 10px 0 rgba(110, 47, 26, 0.12);
+}
+
+.door-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.patience-explanations {
+  margin: 18px 0;
+  padding: 18px;
+  background: var(--paper);
+  border: 2px solid var(--line);
+}
