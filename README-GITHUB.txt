@@ -201,3 +201,12 @@ Autres modifications :
 - suppression de Radio Lavoir ;
 - mise à jour complète des Actualités en 7 points ;
 - ajout des explications du Grand jeu de patience.
+
+## Mise à jour
+
+- remplacement de l’encadré “Lancement officiel” par “Le P’tiot Sampantais paraît aujourd’hui — 17 novembre 1902” ;
+- ajout du lien vidéo : https://youtu.be/AZWyS7-9jc8 ;
+- ajout du lien www.sampans.org dans l’actualité 2 ;
+- ajout de la chanson YouTube dans l’actualité 3 ;
+- ajout du lien YouTube de l’éditorial français dans l’actualité 4 ;
+- ajout d’un remerciement aux mairies dans l’actualité 6.
