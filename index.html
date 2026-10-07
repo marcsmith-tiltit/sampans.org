@@ -20,16 +20,7 @@
       <h1>Le P’tiot Sampantais</h1>
       <p class="subtitle" data-i18n="subtitle">Un petit journal local, inspiré de Sampans en 1902.</p>
 
-      <div class="language-panel" aria-label="Sélecteur de langue">
-        <p data-i18n="languageIntro">Choisir une langue</p>
-        <div class="language-buttons">
-          <button class="language-button" type="button" data-lang="fr">Français</button>
-          <button class="language-button" type="button" data-lang="en">English</button>
-          <button class="language-button" type="button" data-lang="zh">中文</button>
-          <button class="language-button" type="button" data-lang="de">Deutsch</button>
-          <button class="language-button" type="button" data-lang="nl">Nederlands</button>
-        </div>
-      </div>
+      
 
       <div class="buttons">
         <a class="button primary" href="#acheter" data-i18n="orderButton">Commander un exemplaire</a>
@@ -40,11 +31,12 @@
   </header>
 
   <main>
-
-    <section id="editorial" class="section editorial-section">
+<section id="porte-du-temps" class="section door-section">
       <div class="container">
-        <h2 data-i18n="editorialTitle">Éditorial</h2>
-        <p class="large" data-i18n="editorialIntro">Regardez l’éditorial du P’tiot Sampantais dans la langue de votre choix.</p>
+        <h2 data-i18n="doorTitle">La porte du temps — 1902</h2>
+        <figure class="door-frame">
+          <img src="assets/p02-la-porte-du-temps-colorisee.png" alt="La porte du temps 1902, illustration colorisée" loading="lazy">
+        </figure>
         <div class="editorial-buttons">
           <a class="button primary" href="https://youtu.be/f5jT_kXMYow" target="_blank" rel="noopener" data-i18n="editorialFrench">Éditorial en français</a>
           <a class="button primary" href="https://youtu.be/ZVXPjvbiw0s" target="_blank" rel="noopener" data-i18n="editorialEnglish">Editorial in English</a>
@@ -52,18 +44,88 @@
         </div>
       </div>
     </section>
-
-    <section id="porte-du-temps" class="section door-section">
-      <div class="container">
-        <h2 data-i18n="doorTitle">La porte du temps — 1902</h2>
-        <p class="large" data-i18n="doorIntro">Une illustration colorisée pour ouvrir le journal comme une porte vers Sampans en 1902.</p>
-        <figure class="door-frame">
-          <img src="assets/p02-la-porte-du-temps-colorisee.png" alt="La porte du temps 1902, illustration colorisée" loading="lazy">
-        </figure>
+<section id="projet" class="section">
+      <div class="container two-columns">
+        <div>
+          <h2 data-i18n="projectTitle">Un journal venu du passé</h2>
+          <p data-i18n="projectP1">Le P’tiot Sampantais est une publication locale au format journal, imaginée comme si elle avait paru à Sampans au début du XXe siècle.</p>
+          <p data-i18n="projectP2">Ce projet est destiné aux habitants, aux familles, aux curieux, aux amoureux de l’histoire locale, mais aussi aux enfants.</p>
+        </div>
+        <aside class="card">
+          <h3 data-i18n="issueTodayTitle">Le P’tiot Sampantais paraît aujourd’hui</h3>
+          <p><strong data-i18n="issueTodayDate">17 novembre 1902</strong></p>
+          <p><a class="button primary" href="https://youtu.be/AZWyS7-9jc8" target="_blank" rel="noopener" data-i18n="issueTodayButton">Voir la vidéo</a></p>
+        </aside>
       </div>
     </section>
+<section id="lancement" class="section news-section">
+      <div class="container">
+        <h2 data-i18n="newsTitle">Actualités</h2>
+        <p class="large" data-i18n="newsIntro">Suivez toute l’actualité du journal ici !</p>
 
+        <div class="news-list">
+          <article class="news-card">
+            <h3 data-i18n-html="newsProgressTitle">1. Un article dans <em>Le Progrès</em></h3>
+            <p data-i18n-html="newsProgressText">Dans son article du 28 juin 2026, Patrice Genreau, correspondant du <em>Progrès</em>, présente <em>Le P’tiot Sampantais</em> comme un « journal populaire », au ton curieux, tendre et malicieux, accessible à tous.</p>
+            <p><a href="https://c.leprogres.fr/economie/2026/06/28/nouveau-journal-i-le-p-tiot-sampantais-i-est-sorti" target="_blank" rel="noopener" data-i18n="newsProgressLink">Lire l’article dans <em>Le Progrès</em></a></p>
+          </article>
 
+          <article class="news-card">
+            <h3 data-i18n="newsLaunchTitle">2. Le lancement officiel a eu lieu le 5 septembre</h3>
+            <p data-i18n="newsLaunchText">Le lancement initial, prévu le 27 juin 2026, a été annulé en raison de la canicule. Le journal a finalement été présenté au public le samedi 5 septembre, lors du marché des producteurs de Sampans. Ce fut l’occasion de faire découvrir le premier numéro et d’échanger avec les visiteurs et les producteurs. Merci à Twix de nous avoir tenu compagnie.</p>
+            <p data-i18n-html="newsLaunchText2">Le site du <em>P’tiot Sampantais</em> est en ligne : <a href="https://www.sampans.org/" target="_blank" rel="noopener">www.sampans.org</a>. À partager sans réserve !</p>
+          </article>
+
+          <article class="news-card">
+            <h3 data-i18n="newsShareTitle">3. Faites connaître le journal</h3>
+            <p data-i18n="newsShareText">Vous pouvez aider à faire connaître <em>Le P’tiot Sampantais</em> en en parlant autour de vous : à vos voisins, à votre famille ou à vos amis, au détour d’une promenade ou d’une rencontre. Chaque occasion compte !</p>
+            <p data-i18n-html="newsShareSongText">Écoutez une chanson légère, drôle et un peu malicieuse autour de la chaîne du P’tiot Sampantais : <a href="https://youtu.be/ZzfjNB56tss" target="_blank" rel="noopener">l’écouter sur YouTube</a>.</p>
+          </article>
+
+          <article class="news-card">
+            <h3 data-i18n="newsArrivedTitle">4. LE JOURNAL EST-IL ARRIVÉ ?</h3>
+            <p data-i18n="newsArrivedText">L’édition Belle Époque, inspirée de 1902, est disponible à la mairie de Sampans et à la Librairie Passerelle de Dole. Vous pouvez aussi la commander depuis le site du journal.</p>
+            <p data-i18n="newsBnfText">Depuis le 6 septembre 2026, <em>Le P’tiot Sampantais</em> est répertorié à la Bibliothèque nationale de France sous l’ISSN 3131-4139.</p>
+            <p data-i18n-html="newsEditorialText">L’éditorial du numéro de 1902 est également disponible en français et en vidéo : <a href="https://youtu.be/f5jT_kXMYow" target="_blank" rel="noopener">le regarder sur YouTube</a>.</p>
+          </article>
+
+          <article class="news-card">
+            <h3 data-i18n="newsNextTitle">5. La suite : Mont-Roland en 1867 et le Grand Jeu de patience</h3>
+            <p data-i18n="newsNextText">Le prochain numéro évoquera le Mont-Roland à la Pentecôte 1867. Il s’inscrit dans le projet collectif prévu pour la Pentecôte 2027 et rassemble cinq communes : Jouhe, Monnières, Sampans, Authume et Dole–Grand Dole.</p>
+            <p data-i18n="newsNextText2">La réflexion a commencé lors d’une rencontre à la Brasserie Doloise, le 19 juillet 2026. Merci à Florine pour son accueil et à Éric pour l’organisation de cette rencontre.</p>
+            <p data-i18n="newsNextText3">Le <em>Grand Jeu de patience</em> aide à choisir et à répartir les sujets. Chaque carte présente un sujet, une illustration et une question. Sur le tableau, les cartes dont on voit le recto sont déjà choisies ; celles dont on voit le verso, avec le motif du dos, restent disponibles. Il est aussi possible de collaborer à un article déjà choisi.</p>
+            <p data-i18n="newsNextText4">À ce jour, 36 cartes sont choisies et 29 restent disponibles. Le jeu est disponible dans les mairies concernées.</p>
+          </article>
+
+          <article class="news-card">
+            <h3 data-i18n="newsMairiesTitle">6. Le journal et le Grand Jeu présentés aux mairies</h3>
+            <p data-i18n="newsMairiesText">Un exemplaire du <em>P’tiot Sampantais</em> et un jeu de cartes du <em>Grand Jeu de patience de Mont-Roland</em> ont été remis aux mairies des communes concernées.</p>
+            <p data-i18n="newsMairiesText2">À Sampans, le nouveau maire, M. Nicolas Epailly, nous a reçus le 1er août 2026. À Monnières, nous avons été reçus par Maëlle le 6 août 2026. Le même jour, à l’hôtel de ville de Dole, nous avons été reçus par Edwin, chargé de communication et rédacteur à la Direction de la communication du Grand Dole. À Jouhe, le maire, M. Joël Gerdy, nous a reçus le 14 août 2026. À Authume, nous avons été reçus par Marie-France le 14 août 2026.</p>
+            <p data-i18n="newsMairiesThanks">Merci aux mairies pour leur accueil et pour l’attention portée à ce projet.</p>
+          </article>
+
+          <article class="news-card">
+            <h3 data-i18n="newsDeputyTitle">7. Une rencontre avec Justine Gruet, députée du Jura</h3>
+            <p data-i18n="newsDeputyText">Le 5 octobre 2026, Justine Gruet nous a reçus à sa permanence, à Dole. Nous lui avons présenté <em>Le P’tiot Sampantais</em> et le projet du Mont-Roland pour la Pentecôte 2027.</p>
+            <p data-i18n="newsDeputyText2">Jacky, Éric et Marc étaient entourés de contributeurs devenus de vrais amis au fil de l’aventure. Chacun a partagé avec plaisir ce qui le rattache au journal ou au Mont-Roland.</p>
+            <p data-i18n="newsDeputyText3">Justine Gruet a accueilli notre démarche avec intérêt et nous a apporté son soutien moral.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+<section id="defi-video" class="section video-challenge-section">
+      <div class="container">
+        <div class="video-challenge-box">
+          <p class="kicker video-kicker" data-i18n="videoKicker">le défi vidéo 🎥</p>
+          <h2 data-i18n="videoTitle">Participez au défi vidéo du P’tiot Sampantais !</h2>
+          <p class="large" data-i18n="videoIntro">Le principe : réaliser une courte vidéo, d’environ cinq minutes maximum, avec une touche d’humour, en mettant Le P’tiot Sampantais en scène.</p>
+          <p data-i18n="videoIdeas">On peut imaginer le journal en promenade, dans un lieu insolite, lors d’une rencontre ou dans toute autre situation originale.</p>
+          <p><strong data-i18n="videoChannelLabel">Chaîne YouTube du P’tiot Sampantais :</strong><br><a href="https://www.youtube.com/playlist?list=PLAIeSkF5OtUQ" target="_blank" rel="noopener" data-i18n="youtubeVideosButton">Dernières vidéos</a> · <a href="https://www.youtube.com/@LePtiotSampantais/playlists" target="_blank" rel="noopener" data-i18n="youtubePlaylistsButton">Playlists</a></p>
+          <p><span data-i18n="ptiotsMessageText">Envoyez un petit message aux P’tiots :</span> <a href="mailto:ptiots@sampans.org">ptiots@sampans.org</a></p>
+          <p data-i18n="videoPlay">À vous de jouer… et de faire voyager le journal en vidéo !</p>
+        </div>
+      </div>
+    </section>
 <section id="grand-jeu-patience" class="section patience-section">
       <div class="container">
         <h2 data-i18n="patienceTitle">Le Grand jeu de patience de Mont Roland</h2>
@@ -711,22 +773,7 @@
         </div>
       </div>
     </section>
-<section id="projet" class="section">
-      <div class="container two-columns">
-        <div>
-          <h2 data-i18n="projectTitle">Un journal venu du passé</h2>
-          <p data-i18n="projectP1">Le P’tiot Sampantais est une publication locale au format journal, imaginée comme si elle avait paru à Sampans au début du XXe siècle.</p>
-          <p data-i18n="projectP2">Ce projet est destiné aux habitants, aux familles, aux curieux, aux amoureux de l’histoire locale, mais aussi aux enfants.</p>
-        </div>
-        <aside class="card">
-          <h3 data-i18n="issueTodayTitle">Le P’tiot Sampantais paraît aujourd’hui</h3>
-          <p><strong data-i18n="issueTodayDate">17 novembre 1902</strong></p>
-          <p><a class="button primary" href="https://youtu.be/AZWyS7-9jc8" target="_blank" rel="noopener" data-i18n="issueTodayButton">Voir la vidéo</a></p>
-        </aside>
-      </div>
-    </section>
-
-    <section id="acheter" class="section accent">
+<section id="acheter" class="section accent">
       <div class="container">
         <h2 data-i18n="orderTitle">Commander le journal</h2>
         <p class="large" data-i18n="orderIntro">Une formule simple est proposée : 6 € par journal, dont 5 € pour le journal et 1 € de don pour l’École des Chiens Guides de Lyon Centre-Est, à Misérieux.</p>
@@ -748,7 +795,12 @@
             <p data-i18n="worldShippingText">Journal, don, enveloppe et affranchissement international compris.</p>
           </article>
         </div>
-<div class="order-box postal-form-box" id="formulaire-postal">
+      </div>
+    </section>
+
+    <section id="commande-postale" class="section postal-order-section">
+      <div class="container">
+        <div class="order-box postal-form-box" id="formulaire-postal">
           <h3 data-i18n="postalFormTitle">Formulaire pour l’envoi par la poste</h3>
           <p data-i18n="postalFormIntro">Remplissez ce formulaire pour envoyer automatiquement votre demande à contact@sampans.org.</p>
 
@@ -797,7 +849,7 @@
       </div>
     </section>
 
-    <section class="section">
+<section class="section">
       <div class="container">
         <h2 data-i18n="aboutTitle">À propos</h2>
         <p data-i18n="aboutP1">Ce site est une initiative locale indépendante autour de la mémoire de Sampans et de sa région. Il ne remplace pas les informations officielles de la commune.</p>
@@ -808,77 +860,22 @@
       </div>
     </section>
 
-    <section id="lancement" class="section news-section">
+    <section id="langues" class="section language-section">
       <div class="container">
-        <h2 data-i18n="newsTitle">Actualités</h2>
-        <p class="large" data-i18n="newsIntro">Suivez toute l’actualité du journal ici !</p>
-
-        <div class="news-list">
-          <article class="news-card">
-            <h3 data-i18n-html="newsProgressTitle">1. Un article dans <em>Le Progrès</em></h3>
-            <p data-i18n-html="newsProgressText">Dans son article du 28 juin 2026, Patrice Genreau, correspondant du <em>Progrès</em>, présente <em>Le P’tiot Sampantais</em> comme un « journal populaire », au ton curieux, tendre et malicieux, accessible à tous.</p>
-            <p><a href="https://c.leprogres.fr/economie/2026/06/28/nouveau-journal-i-le-p-tiot-sampantais-i-est-sorti" target="_blank" rel="noopener" data-i18n="newsProgressLink">Lire l’article dans <em>Le Progrès</em></a></p>
-          </article>
-
-          <article class="news-card">
-            <h3 data-i18n="newsLaunchTitle">2. Le lancement officiel a eu lieu le 5 septembre</h3>
-            <p data-i18n="newsLaunchText">Le lancement initial, prévu le 27 juin 2026, a été annulé en raison de la canicule. Le journal a finalement été présenté au public le samedi 5 septembre, lors du marché des producteurs de Sampans. Ce fut l’occasion de faire découvrir le premier numéro et d’échanger avec les visiteurs et les producteurs. Merci à Twix de nous avoir tenu compagnie.</p>
-            <p data-i18n-html="newsLaunchText2">Le site du <em>P’tiot Sampantais</em> est en ligne : <a href="https://www.sampans.org/" target="_blank" rel="noopener">www.sampans.org</a>. À partager sans réserve !</p>
-          </article>
-
-          <article class="news-card">
-            <h3 data-i18n="newsShareTitle">3. Faites connaître le journal</h3>
-            <p data-i18n="newsShareText">Vous pouvez aider à faire connaître <em>Le P’tiot Sampantais</em> en en parlant autour de vous : à vos voisins, à votre famille ou à vos amis, au détour d’une promenade ou d’une rencontre. Chaque occasion compte !</p>
-            <p data-i18n-html="newsShareSongText">Écoutez une chanson légère, drôle et un peu malicieuse autour de la chaîne du P’tiot Sampantais : <a href="https://youtu.be/ZzfjNB56tss" target="_blank" rel="noopener">l’écouter sur YouTube</a>.</p>
-          </article>
-
-          <article class="news-card">
-            <h3 data-i18n="newsArrivedTitle">4. LE JOURNAL EST-IL ARRIVÉ ?</h3>
-            <p data-i18n="newsArrivedText">L’édition Belle Époque, inspirée de 1902, est disponible à la mairie de Sampans et à la Librairie Passerelle de Dole. Vous pouvez aussi la commander depuis le site du journal.</p>
-            <p data-i18n="newsBnfText">Depuis le 6 septembre 2026, <em>Le P’tiot Sampantais</em> est répertorié à la Bibliothèque nationale de France sous l’ISSN 3131-4139.</p>
-            <p data-i18n-html="newsEditorialText">L’éditorial du numéro de 1902 est également disponible en français et en vidéo : <a href="https://youtu.be/f5jT_kXMYow" target="_blank" rel="noopener">le regarder sur YouTube</a>.</p>
-          </article>
-
-          <article class="news-card">
-            <h3 data-i18n="newsNextTitle">5. La suite : Mont-Roland en 1867 et le Grand Jeu de patience</h3>
-            <p data-i18n="newsNextText">Le prochain numéro évoquera le Mont-Roland à la Pentecôte 1867. Il s’inscrit dans le projet collectif prévu pour la Pentecôte 2027 et rassemble cinq communes : Jouhe, Monnières, Sampans, Authume et Dole–Grand Dole.</p>
-            <p data-i18n="newsNextText2">La réflexion a commencé lors d’une rencontre à la Brasserie Doloise, le 19 juillet 2026. Merci à Florine pour son accueil et à Éric pour l’organisation de cette rencontre.</p>
-            <p data-i18n="newsNextText3">Le <em>Grand Jeu de patience</em> aide à choisir et à répartir les sujets. Chaque carte présente un sujet, une illustration et une question. Sur le tableau, les cartes dont on voit le recto sont déjà choisies ; celles dont on voit le verso, avec le motif du dos, restent disponibles. Il est aussi possible de collaborer à un article déjà choisi.</p>
-            <p data-i18n="newsNextText4">À ce jour, 36 cartes sont choisies et 29 restent disponibles. Le jeu est disponible dans les mairies concernées.</p>
-          </article>
-
-          <article class="news-card">
-            <h3 data-i18n="newsMairiesTitle">6. Le journal et le Grand Jeu présentés aux mairies</h3>
-            <p data-i18n="newsMairiesText">Un exemplaire du <em>P’tiot Sampantais</em> et un jeu de cartes du <em>Grand Jeu de patience de Mont-Roland</em> ont été remis aux mairies des communes concernées.</p>
-            <p data-i18n="newsMairiesText2">À Sampans, le nouveau maire, M. Nicolas Epailly, nous a reçus le 1er août 2026. À Monnières, nous avons été reçus par Maëlle le 6 août 2026. Le même jour, à l’hôtel de ville de Dole, nous avons été reçus par Edwin, chargé de communication et rédacteur à la Direction de la communication du Grand Dole. À Jouhe, le maire, M. Joël Gerdy, nous a reçus le 14 août 2026. À Authume, nous avons été reçus par Marie-France le 14 août 2026.</p>
-            <p data-i18n="newsMairiesThanks">Merci aux mairies pour leur accueil et pour l’attention portée à ce projet.</p>
-          </article>
-
-          <article class="news-card">
-            <h3 data-i18n="newsDeputyTitle">7. Une rencontre avec Justine Gruet, députée du Jura</h3>
-            <p data-i18n="newsDeputyText">Le 5 octobre 2026, Justine Gruet nous a reçus à sa permanence, à Dole. Nous lui avons présenté <em>Le P’tiot Sampantais</em> et le projet du Mont-Roland pour la Pentecôte 2027.</p>
-            <p data-i18n="newsDeputyText2">Jacky, Éric et Marc étaient entourés de contributeurs devenus de vrais amis au fil de l’aventure. Chacun a partagé avec plaisir ce qui le rattache au journal ou au Mont-Roland.</p>
-            <p data-i18n="newsDeputyText3">Justine Gruet a accueilli notre démarche avec intérêt et nous a apporté son soutien moral.</p>
-          </article>
+        <div class="language-panel" aria-label="Sélecteur de langue">
+        <p data-i18n="languageIntro">Choisir une langue</p>
+        <div class="language-buttons">
+          <button class="language-button" type="button" data-lang="fr">Français</button>
+          <button class="language-button" type="button" data-lang="en">English</button>
+          <button class="language-button" type="button" data-lang="zh">中文</button>
+          <button class="language-button" type="button" data-lang="de">Deutsch</button>
+          <button class="language-button" type="button" data-lang="nl">Nederlands</button>
         </div>
+      </div>
       </div>
     </section>
 
-    <section id="defi-video" class="section video-challenge-section">
-      <div class="container">
-        <div class="video-challenge-box">
-          <p class="kicker video-kicker" data-i18n="videoKicker">le défi vidéo 🎥</p>
-          <h2 data-i18n="videoTitle">Participez au défi vidéo du P’tiot Sampantais !</h2>
-          <p class="large" data-i18n="videoIntro">Le principe : réaliser une courte vidéo, d’environ cinq minutes maximum, avec une touche d’humour, en mettant Le P’tiot Sampantais en scène.</p>
-          <p data-i18n="videoIdeas">On peut imaginer le journal en promenade, dans un lieu insolite, lors d’une rencontre ou dans toute autre situation originale.</p>
-          <p><strong data-i18n="videoChannelLabel">Chaîne YouTube du P’tiot Sampantais :</strong><br><a href="https://www.youtube.com/playlist?list=PLAIeSkF5OtUQ" target="_blank" rel="noopener" data-i18n="youtubeVideosButton">Dernières vidéos</a> · <a href="https://www.youtube.com/@LePtiotSampantais/playlists" target="_blank" rel="noopener" data-i18n="youtubePlaylistsButton">Playlists</a></p>
-          <p><span data-i18n="ptiotsMessageText">Envoyez un petit message aux P’tiots :</span> <a href="mailto:ptiots@sampans.org">ptiots@sampans.org</a></p>
-          <p data-i18n="videoPlay">À vous de jouer… et de faire voyager le journal en vidéo !</p>
-        </div>
-      </div>
-    </section>
-
-</main>
+  </main>
 
   <footer><div class="container"><p>© 2026 Le P’tiot Sampantais — Sampans</p></div></footer>
   <script src="script.js"></script>

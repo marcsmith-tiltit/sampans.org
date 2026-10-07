@@ -646,3 +646,20 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
   background: var(--paper);
   border: 2px solid var(--line);
 }
+
+/* Langues déplacées */
+.language-section {
+  text-align: center;
+  background: var(--paper);
+}
+
+.language-section .language-panel {
+  color: var(--ink);
+  background: var(--white);
+  border: 2px solid var(--line);
+  box-shadow: 8px 8px 0 rgba(110, 47, 26, 0.12);
+}
+
+.language-section .language-panel p {
+  color: var(--muted);
+}

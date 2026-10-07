@@ -210,3 +210,20 @@ Autres modifications :
 - ajout de la chanson YouTube dans l’actualité 3 ;
 - ajout du lien YouTube de l’éditorial français dans l’actualité 4 ;
 - ajout d’un remerciement aux mairies dans l’actualité 6.
+
+## Mise à jour de l’organisation des blocs
+
+- suppression du texte sous “La porte du temps — 1902” ;
+- suppression de l’introduction de la section Éditorial ;
+- fusion des boutons d’éditorial sous l’illustration “La porte du temps — 1902” ;
+- déplacement du choix de langue en bas de page ;
+- réorganisation des blocs :
+  1. La porte du temps — 1902 + boutons éditoriaux
+  2. Un journal venu du passé
+  3. Actualités
+  4. Défi vidéo
+  5. Grand jeu de patience
+  6. Commander le journal
+  7. Formulaire postal
+  8. À propos
+  9. Choisir une langue
