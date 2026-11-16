@@ -663,3 +663,103 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
 .language-section .language-panel p {
   color: var(--muted);
 }
+
+
+/* Invitation to the ASMOR 40th-anniversary AGM. Scoped to the new block. */
+.asmor-invitation-section {
+  background: var(--paper);
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.asmor-invitation-card {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(22px, 4vw, 44px);
+  padding: clamp(24px, 4vw, 40px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-inline-start: 6px solid var(--accent);
+  box-shadow: 6px 6px 0 rgba(110, 47, 26, 0.10);
+}
+.asmor-anniversary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  padding: 18px 12px;
+  border: 3px double var(--line);
+  color: var(--accent-dark);
+  text-align: center;
+}
+.asmor-anniversary-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.16em;
+}
+.asmor-anniversary-years {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  line-height: 1.3;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.asmor-invitation-kicker {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  font-weight: bold;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+}
+.asmor-invitation-copy {
+  min-width: 0;
+}
+.asmor-invitation-copy h2 {
+  margin-bottom: 12px;
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  line-height: 1.25;
+}
+.asmor-invitation-copy > p:not(.asmor-invitation-kicker) {
+  max-width: 66ch;
+}
+.asmor-register {
+  cursor: pointer;
+  max-width: 100%;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.asmor-register:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+.asmor-register:focus-visible {
+  outline: 3px solid var(--accent-dark);
+  outline-offset: 4px;
+}
+.asmor-registration-note {
+  margin: 10px 0 0;
+}
+@media (max-width: 640px) {
+  .asmor-invitation-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    padding: 24px 20px;
+  }
+  .asmor-anniversary {
+    width: max-content;
+    max-width: 100%;
+    min-height: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 10px 16px;
+  }
+  .asmor-anniversary-years {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .asmor-invitation-copy h2 {
+    font-size: 1.6rem;
+  }
+}

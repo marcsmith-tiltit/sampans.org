@@ -128,7 +128,15 @@ const translations = {
     "issueTodayDate": "17 novembre 1902",
     "issueTodayButton": "Voir la vidéo",
     "newsShareSongText": "Écoutez une chanson légère, drôle et un peu malicieuse autour de la chaîne du P’tiot Sampantais : <a href=\"https://youtu.be/ZzfjNB56tss\" target=\"_blank\" rel=\"noopener\">l’écouter sur YouTube</a>.",
-    "newsMairiesThanks": "Merci aux mairies pour leur accueil et pour l’attention portée à ce projet."
+    "newsMairiesThanks": "Merci aux mairies pour leur accueil et pour l’attention portée à ce projet.",
+    "asmorInvitation": "Invitation",
+    "asmorYears": "40 ans",
+    "asmorTitle": "L’ASMOR fête ses 40 ans",
+    "asmorIntro": "Vous êtes invités à l’assemblée générale des 40 ans de l’ASMOR. Rejoignez-nous pour marquer cet anniversaire et partager ce moment avec l’association.",
+    "asmorRegister": "S’inscrire à l’AG",
+    "asmorFormHint": "Le formulaire d’inscription s’ouvre dans un nouvel onglet.",
+    "newsAsmorTitle": "8. L’assemblée générale des 40 ans de l’ASMOR",
+    "newsAsmorText": "À l’occasion de ses 40 ans, l’ASMOR vous invite à son assemblée générale. Pour participer à cette rencontre, inscrivez-vous à l’aide du formulaire ci-dessous."
   },
   "en": {
     "languageName": "English",
@@ -259,7 +267,15 @@ const translations = {
     "issueTodayDate": "17 November 1902",
     "issueTodayButton": "Watch the video",
     "newsShareSongText": "Listen to a light, funny and slightly mischievous song about the P’tiot Sampantais channel: <a href=\"https://youtu.be/ZzfjNB56tss\" target=\"_blank\" rel=\"noopener\">listen on YouTube</a>.",
-    "newsMairiesThanks": "Thank you to the town halls for their welcome and for the attention given to this project."
+    "newsMairiesThanks": "Thank you to the town halls for their welcome and for the attention given to this project.",
+    "asmorInvitation": "Invitation",
+    "asmorYears": "40 years",
+    "asmorTitle": "ASMOR celebrates its 40th anniversary",
+    "asmorIntro": "You are invited to ASMOR’s 40th-anniversary annual general meeting. Join us to mark this anniversary and share the occasion with the association.",
+    "asmorRegister": "Register for the AGM",
+    "asmorFormHint": "The registration form opens in a new tab.",
+    "newsAsmorTitle": "8. ASMOR’s 40th-anniversary annual general meeting",
+    "newsAsmorText": "To mark its 40th anniversary, ASMOR invites you to its annual general meeting. Please register using the form below to take part."
   },
   "zh": {
     "languageName": "中文",
@@ -378,7 +394,15 @@ const translations = {
     "newsLaunchText2": "<em>P’tiot Sampantais</em> 网站已经上线：<a href=\"https://www.sampans.org/\" target=\"_blank\" rel=\"noopener\">www.sampans.org</a>。欢迎分享！",
     "newsShareSongText": "请听一首围绕 P’tiot Sampantais 频道创作的轻松、幽默、略带调皮的歌曲：<a href=\"https://youtu.be/ZzfjNB56tss\" target=\"_blank\" rel=\"noopener\">在 YouTube 上收听</a>。",
     "newsEditorialText": "1902年这一期的社论也有法语视频版：<a href=\"https://youtu.be/f5jT_kXMYow\" target=\"_blank\" rel=\"noopener\">在 YouTube 上观看</a>。",
-    "newsMairiesThanks": "感谢各市政厅的接待，以及对这个项目的关注。"
+    "newsMairiesThanks": "感谢各市政厅的接待，以及对这个项目的关注。",
+    "asmorInvitation": "诚邀参加",
+    "asmorYears": "40周年",
+    "asmorTitle": "庆祝 ASMOR 成立40周年",
+    "asmorIntro": "诚邀您参加 ASMOR 成立40周年年度大会，与协会成员相聚，共同庆祝这一周年纪念。",
+    "asmorRegister": "报名参加大会",
+    "asmorFormHint": "报名表将在新标签页中打开。",
+    "newsAsmorTitle": "8. ASMOR 成立40周年年度大会",
+    "newsAsmorText": "值此成立40周年之际，ASMOR 诚邀您参加年度大会。欢迎通过下方表格报名参加。"
   },
   "de": {
     "languageName": "Deutsch",
@@ -509,7 +533,15 @@ const translations = {
     "issueTodayDate": "17. November 1902",
     "issueTodayButton": "Video ansehen",
     "newsShareSongText": "Hören Sie ein leichtes, lustiges und ein wenig schelmisches Lied rund um den Kanal des P’tiot Sampantais: <a href=\"https://youtu.be/ZzfjNB56tss\" target=\"_blank\" rel=\"noopener\">auf YouTube anhören</a>.",
-    "newsMairiesThanks": "Vielen Dank an die Rathäuser für den freundlichen Empfang und die Aufmerksamkeit für dieses Projekt."
+    "newsMairiesThanks": "Vielen Dank an die Rathäuser für den freundlichen Empfang und die Aufmerksamkeit für dieses Projekt.",
+    "asmorInvitation": "Einladung",
+    "asmorYears": "40 Jahre",
+    "asmorTitle": "ASMOR feiert ihr 40-jähriges Bestehen",
+    "asmorIntro": "Sie sind zur Jahreshauptversammlung anlässlich des 40-jährigen Bestehens der ASMOR eingeladen. Feiern Sie dieses Jubiläum gemeinsam mit dem Verein.",
+    "asmorRegister": "Zur Versammlung anmelden",
+    "asmorFormHint": "Das Anmeldeformular öffnet sich in einem neuen Tab.",
+    "newsAsmorTitle": "8. Jahreshauptversammlung zum 40-jährigen Bestehen der ASMOR",
+    "newsAsmorText": "Anlässlich ihres 40-jährigen Bestehens lädt die ASMOR zu ihrer Jahreshauptversammlung ein. Bitte melden Sie sich über das folgende Formular an."
   },
   "nl": {
     "languageName": "Nederlands",
@@ -640,7 +672,15 @@ const translations = {
     "issueTodayDate": "17 november 1902",
     "issueTodayButton": "Bekijk de video",
     "newsShareSongText": "Luister naar een licht, grappig en een beetje ondeugend lied rond het kanaal van P’tiot Sampantais: <a href=\"https://youtu.be/ZzfjNB56tss\" target=\"_blank\" rel=\"noopener\">beluister het op YouTube</a>.",
-    "newsMairiesThanks": "Dank aan de gemeentehuizen voor hun ontvangst en voor de aandacht voor dit project."
+    "newsMairiesThanks": "Dank aan de gemeentehuizen voor hun ontvangst en voor de aandacht voor dit project.",
+    "asmorInvitation": "Uitnodiging",
+    "asmorYears": "40 jaar",
+    "asmorTitle": "ASMOR viert haar 40-jarig bestaan",
+    "asmorIntro": "U bent uitgenodigd voor de algemene ledenvergadering ter gelegenheid van het 40-jarig bestaan van ASMOR. Vier dit jubileum samen met de vereniging.",
+    "asmorRegister": "Aanmelden voor de vergadering",
+    "asmorFormHint": "Het aanmeldformulier opent in een nieuw tabblad.",
+    "newsAsmorTitle": "8. Algemene ledenvergadering voor het 40-jarig bestaan van ASMOR",
+    "newsAsmorText": "Ter gelegenheid van haar 40-jarig bestaan nodigt ASMOR u uit voor de algemene ledenvergadering. Meld u aan via het onderstaande formulier om deel te nemen."
   }
 };
 
