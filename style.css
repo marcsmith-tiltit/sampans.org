@@ -763,3 +763,27 @@ html[dir="rtl"] .poster-section, html[dir="rtl"] footer { text-align: center; }
     font-size: 1.6rem;
   }
 }
+
+
+/* ASMOR visual hero */
+.asmor-hero-section {
+  text-align: center;
+}
+
+.asmor-hero-frame img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.asmor-hero-link {
+  display: inline-block;
+}
+
+.asmor-hero-buttons {
+  margin-top: 18px;
+}

@@ -136,7 +136,9 @@ const translations = {
     "asmorRegister": "S’inscrire à l’AG",
     "asmorFormHint": "Le formulaire d’inscription s’ouvre dans un nouvel onglet.",
     "newsAsmorTitle": "8. L’assemblée générale des 40 ans de l’ASMOR",
-    "newsAsmorText": "À l’occasion de ses 40 ans, l’ASMOR vous invite à son assemblée générale. Pour participer à cette rencontre, inscrivez-vous à l’aide du formulaire ci-dessous."
+    "newsAsmorText": "À l’occasion de ses 40 ans, l’ASMOR vous invite à son assemblée générale. Pour participer à cette rencontre, inscrivez-vous à l’aide du formulaire ci-dessous.",
+    "asmorHeroTitle": "L’ASMOR fête ses 40 ans",
+    "asmorHeroButton": "S’inscrire en ligne"
   },
   "en": {
     "languageName": "English",
@@ -275,7 +277,9 @@ const translations = {
     "asmorRegister": "Register for the AGM",
     "asmorFormHint": "The registration form opens in a new tab.",
     "newsAsmorTitle": "8. ASMOR’s 40th-anniversary annual general meeting",
-    "newsAsmorText": "To mark its 40th anniversary, ASMOR invites you to its annual general meeting. Please register using the form below to take part."
+    "newsAsmorText": "To mark its 40th anniversary, ASMOR invites you to its annual general meeting. Please register using the form below to take part.",
+    "asmorHeroTitle": "ASMOR celebrates its 40th anniversary",
+    "asmorHeroButton": "Register online"
   },
   "zh": {
     "languageName": "中文",
@@ -402,7 +406,9 @@ const translations = {
     "asmorRegister": "报名参加大会",
     "asmorFormHint": "报名表将在新标签页中打开。",
     "newsAsmorTitle": "8. ASMOR 成立40周年年度大会",
-    "newsAsmorText": "值此成立40周年之际，ASMOR 诚邀您参加年度大会。欢迎通过下方表格报名参加。"
+    "newsAsmorText": "值此成立40周年之际，ASMOR 诚邀您参加年度大会。欢迎通过下方表格报名参加。",
+    "asmorHeroTitle": "ASMOR 庆祝成立 40 周年",
+    "asmorHeroButton": "在线报名"
   },
   "de": {
     "languageName": "Deutsch",
@@ -541,7 +547,9 @@ const translations = {
     "asmorRegister": "Zur Versammlung anmelden",
     "asmorFormHint": "Das Anmeldeformular öffnet sich in einem neuen Tab.",
     "newsAsmorTitle": "8. Jahreshauptversammlung zum 40-jährigen Bestehen der ASMOR",
-    "newsAsmorText": "Anlässlich ihres 40-jährigen Bestehens lädt die ASMOR zu ihrer Jahreshauptversammlung ein. Bitte melden Sie sich über das folgende Formular an."
+    "newsAsmorText": "Anlässlich ihres 40-jährigen Bestehens lädt die ASMOR zu ihrer Jahreshauptversammlung ein. Bitte melden Sie sich über das folgende Formular an.",
+    "asmorHeroTitle": "ASMOR feiert sein 40-jähriges Bestehen",
+    "asmorHeroButton": "Online anmelden"
   },
   "nl": {
     "languageName": "Nederlands",
@@ -680,7 +688,9 @@ const translations = {
     "asmorRegister": "Aanmelden voor de vergadering",
     "asmorFormHint": "Het aanmeldformulier opent in een nieuw tabblad.",
     "newsAsmorTitle": "8. Algemene ledenvergadering voor het 40-jarig bestaan van ASMOR",
-    "newsAsmorText": "Ter gelegenheid van haar 40-jarig bestaan nodigt ASMOR u uit voor de algemene ledenvergadering. Meld u aan via het onderstaande formulier om deel te nemen."
+    "newsAsmorText": "Ter gelegenheid van haar 40-jarig bestaan nodigt ASMOR u uit voor de algemene ledenvergadering. Meld u aan via het onderstaande formulier om deel te nemen.",
+    "asmorHeroTitle": "ASMOR viert zijn 40-jarig bestaan",
+    "asmorHeroButton": "Online inschrijven"
   }
 };
 
